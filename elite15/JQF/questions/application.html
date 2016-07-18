@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Application | e-Lite 2015</title>
+	<link rel = "stylesheet" type = "text/css" href = "../assets/style.css">
+	<script type = "text/javascript">
+
+		function showAnswer() {
+			content = document.getElementById("content");
+			answer_link = document.getElementById("answer-link");
+			answer_explanation = document.getElementById("answer-explanation");
+			content.style.textAlign = "center";
+			content.style.fontSize = "300%";
+			content.innerHTML = "Telegram";
+			answer_explanation.style.display = "block";
+			answer_link.style.display = "none";
+			document.getElementById("reload").style.display = "inline-block";
+		}
+
+	</script>
+</head>
+<body>
+	<div class = "vertical">
+		
+		
+		<div class = "question-number">
+			Application
+		</div>
+
+		<div class = "question-content" id = "content" style = "font-size: 130%">
+			X is a Russian instant messaging application developed by brothers Pavel and Nikolai Durov and is very famous in its home country. However, a recently started chain of WhatsApp messages asking users to leave WhatsApp and join X because it is 'Made in India' (which it isn't) caused a huge surge in X's popularity, so much so that 1.5 million new subscribers joined the service in two days.  Which app? <br /><br />
+			<center><img src = "multimedia/Whatsapp.png" height = "300"></center>
+
+		</div>
+
+		<div class = "answer-explanation" id = "answer-explanation">
+			<center><img src = "multimedia/MakeInIndia.png" height = "250"><br /><br />Made with love in Russia</center>
+		</div>
+		
+		<div class = "actions">
+			<a href = "javascript: location.reload()" id = "reload">view question &nbsp; &bull; &nbsp; </a> <a href = "javascript: showAnswer()" id = "answer-link">view answer &nbsp; &bull; &nbsp;</a>  <a href = "javascript: window.close()">return to grid </a>&nbsp;  
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Internet | e-Lite 2015</title>
+	<link rel = "stylesheet" type = "text/css" href = "../assets/style.css">
+	<script type = "text/javascript">
+
+		function showAnswer() {
+			content = document.getElementById("content");
+			answer_link = document.getElementById("answer-link");
+			answer_explanation = document.getElementById("answer-explanation");
+			content.style.textAlign = "center";
+			content.style.fontSize = "300%";
+			content.innerHTML = "The Winklevoss twins";
+			answer_explanation.style.display = "block";
+			answer_link.style.display = "none";
+			document.getElementById("reload").style.display = "inline-block";
+		}
+
+	</script>
+</head>
+<body>
+	<div class = "vertical">
+		
+		
+		<div class = "question-number">
+			Internet
+		</div>
+
+		<div class = "question-content" id = "content">
+			<center>Who is representing the United States?
+				<br /><br />
+				<img src = "multimedia/Olympics.jpg" height = "300">
+			</center>
+		</div>
+
+		<div class = "answer-explanation" id = "answer-explanation">
+			Cameron and Tyler Winklevoss sued Mark Zuckerberg and claimed that he stole their ideas while in college and developed Facebook.
+			<br /><br />
+			<center><img src = "multimedia/Rowers.jpg" height = "250"></center>
+		</div>
+		
+		<div class = "actions">
+			<a href = "javascript: location.reload()" id = "reload">view question &nbsp; &bull; &nbsp; </a> <a href = "javascript: showAnswer()" id = "answer-link">view answer &nbsp; &bull; &nbsp;</a>  <a href = "javascript: window.close()">return to grid </a>&nbsp;  
+		</div>
+	</div>
+</body>
+</html>

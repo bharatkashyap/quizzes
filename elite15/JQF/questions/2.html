@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Question 2 | e-Lite 2015</title>
+	<link rel = "stylesheet" type = "text/css" href = "../assets/style.css">
+	<script type = "text/javascript">
+
+		function showAnswer() {
+			content = document.getElementById("content");
+			answer_link = document.getElementById("answer-link");
+			answer_explanation = document.getElementById("answer-explanation");
+			content.style.textAlign = "center";
+			content.style.fontSize = "300%";
+			content.innerHTML = "<em>Keep calm and carry on</em>";
+			answer_explanation.style.display = "block";
+			answer_link.style.display = "none";
+			document.getElementById("reload").style.display = "inline-block";
+		}
+
+	</script>
+</head>
+<body>
+	<div class = "vertical">
+		
+		
+		<div class = "question-number">
+			2
+		</div>
+
+		<div class = "question-content" id = "content">
+			X was a series of motivational posters produced by the British government in 1939 in preparation for the Second World War. Although never actually used for its intended purpose, X was supposed to have been lost until a copy was rediscovered in the storehouse of a library in 2000. As the popularity of the poster in various media has grown, innumerable parodies, imitations and co-optations have also appeared, making it extremely recognisable globally.
+<span style = "font-weight: 400">Identify X.</span>
+		</div>
+
+		<div class = "answer-explanation" id = "answer-explanation">
+			<center><img height="40%" width="45%" src = "keepcalm.jpg"></center>
+		</div>
+		
+		<div class = "actions">
+			<a href = "javascript: location.reload()" id = "reload">view question &nbsp; &bull; &nbsp; </a> <a href = "javascript: showAnswer()" id = "answer-link">view answer &nbsp; &bull; &nbsp;</a>  <a href = "javascript: window.close()">return to grid </a>&nbsp;
+		</div>
+	</div>
+</body>
+</html>

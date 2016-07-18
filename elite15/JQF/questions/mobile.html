@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Mobile | e-Lite 2015</title>
+	<link rel = "stylesheet" type = "text/css" href = "../assets/style.css">
+	<script type = "text/javascript">
+
+		function showAnswer() {
+			content = document.getElementById("content");
+			answer_link = document.getElementById("answer-link");
+			answer_explanation = document.getElementById("answer-explanation");
+			content.style.textAlign = "center";
+			content.style.fontSize = "240%";
+			content.innerHTML = "It was the last smartphone to support SymbianOS.";
+			answer_explanation.style.display = "block";
+			answer_link.style.display = "none";
+			document.getElementById("reload").style.display = "inline-block";
+		}
+
+	</script>
+</head>
+<body>
+	<div class = "vertical">
+		
+		
+		<div class = "question-number">
+			Mobile
+		</div>
+
+		<div class = "question-content" id = "content">
+			<center><img src = "multimedia/808Pureview.JPG" height = "250"><br /><br />
+			The Nokia 808 Pureview is a smartphone by Nokia. Unveiled in 2012 at the Mobile World Congress, it was the first phone to use Nokia's Pureview Pro Technology. However, it is also known for an entirely different reason. What?
+		</center>
+
+		</div>
+
+		<div class = "answer-explanation" id = "answer-explanation">
+	
+		</div>
+		
+		<div class = "actions">
+			<a href = "javascript: location.reload()" id = "reload">view question &nbsp; &bull; &nbsp; </a> <a href = "javascript: showAnswer()" id = "answer-link">view answer &nbsp; &bull; &nbsp;</a>  <a href = "javascript: window.close()">return to grid </a>&nbsp;  
+		</div>
+	</div>
+</body>
+</html>
