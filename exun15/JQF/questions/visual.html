@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Senior Quiz Finals | Exun 2015</title>
+	<link rel = "stylesheet" type = "text/css" href = "../assets/style.css">
+	<script src="../assets/jquery.js"></script>
+	<script src="../assets/typed.js"></script>
+	<script type = "text/javascript">
+
+		function showAnswer() {
+			content = document.getElementById("content");
+			answer_link = document.getElementById("answer-link");
+			answer_explanation = document.getElementById("answer-explanation");
+			content.style.textAlign = "center";
+			content.style.fontSize = "300%";
+			content.innerHTML = "Periscope";
+			answer_explanation.style.display = "block";
+			answer_link.style.display = "none";
+			document.getElementById("reload").style.display = "inline-block";
+		}
+		  
+  
+	</script>
+</head>
+<body>
+	<div class = "vertical">
+		
+		
+		<div class = "question-number">
+			Video
+		</div>
+
+		<div class = "question-content" id = "content">
+      <center>Question follows. <br/><br/><video controls><source src="multimedia/Hound.mp4" type="video/mp4">Your browser is unable to play HTML5 video.</video></center>
+		</div>
+
+		<div class = "answer-explanation" id = "answer-explanation">
+			<center><img src = "multimedia/Broadcast.jpg" height = "200"></center><br /><br />
+			Founded by Joe Bernstein and Kayvon Beykpour, it was recently acquired by Twitter.
+		</div>
+		
+		<div class = "actions">
+			<a href = "javascript: location.reload()" id = "reload">view question &nbsp; &bull; &nbsp; </a> <a href = "javascript: showAnswer()" id = "answer-link">view answer &nbsp; &bull; &nbsp;</a>  <a href = "javascript: window.close()">return to grid </a>&nbsp;
+		</div>
+	</div>
+</body>
+</html>

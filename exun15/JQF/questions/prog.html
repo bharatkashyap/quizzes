@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Senior Quiz Finals | Exun 2015</title>
+	<link rel = "stylesheet" type = "text/css" href = "../assets/style.css">
+	<script type = "text/javascript">
+
+		function showAnswer() {
+			content = document.getElementById("content");
+			answer_link = document.getElementById("answer-link");
+			answer_explanation = document.getElementById("answer-explanation");
+			rules = document.getElementsByClassName('rule');
+			rules[0].innerHTML = "";
+			rules[1].innerHTML = "";
+			content.style.textAlign = "center";
+			content.style.fontSize = "300%";
+			content.innerHTML = "Periscope";
+			answer_explanation.style.display = "block";
+			answer_link.style.display = "none";
+			document.getElementById("reload").style.display = "inline-block";
+		}
+		
+		function showImage(i)
+	  {
+	    var button = document.getElementById('prog'+i);
+	    button.style.opacity = 0;
+	    var image = document.getElementById('progimg'+i)
+      image.style.display = "block";
+	  }
+		  
+  
+	</script>
+</head>
+<body>
+	<div class = "vertical">
+		
+		
+		<div class = "question-number">
+			Progressive
+		</div>
+
+     <div class="rule">
+        &sdot; <span style="font-weight : bold">+ 25 </span> points for a correct answer on the first hint, <span style="font-weight : bold">+ 15 </span> on the second, and <span style="font-weight : bold">+ 5 </span> on the third.
+      </div>
+      <div class="rule">
+        &sdot; Rest of the rules remain the same as for the rest of the questions in this round.
+      </div>
+		<div class = "question-content" id = "content">
+		  <button id="prog2" onclick="showImage(2)">2</button>
+      <div id="progimg2"><img src="multimedia/Broadcast.jpg" height=200 /></div>
+		</div>
+
+		<div class = "answer-explanation" id = "answer-explanation">
+			<center><img src = "multimedia/Broadcast.jpg" height = "200"></center><br /><br />
+			Founded by Joe Bernstein and Kayvon Beykpour, it was recently acquired by Twitter.
+		</div>
+		
+		<div class = "actions">
+			<a href = "javascript: location.reload()" id = "reload">view question &nbsp; &bull; &nbsp; </a> <a href = "javascript: showAnswer()" id = "answer-link">view answer &nbsp; &bull; &nbsp;</a>  <a href = "javascript: window.close()">return to grid </a>&nbsp;
+		</div>
+	</div>
+</body>
+</html>
