@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Question 11 | e-Lite 2015</title>
+	<link rel = "stylesheet" type = "text/css" href = "../assets/style.css">
+	<script type = "text/javascript">
+
+		function showAnswer() {
+			content = document.getElementById("content");
+			answer_link = document.getElementById("answer-link");
+			answer_explanation = document.getElementById("answer-explanation");
+			content.style.textAlign = "center";
+			content.style.fontSize = "300%";
+			content.innerHTML = "IBM";
+			answer_explanation.style.display = "block";
+			answer_link.style.display = "none";
+			document.getElementById("reload").style.display = "inline-block";
+		}
+
+	</script>
+</head>
+<body>
+	<div class = "vertical">
+		
+		
+		<div class = "question-number">
+			11
+		</div>
+
+		<div class = "question-content" id = "content" style = "font-size: 150%">
+			'A Boy and his Atom' is a 2013 stop-motion animated short film released on YouTube by X. The movie tells the story of a boy and a wayward atom who meet and become friends. One minute in length, it was made by moving carbon monoxide molecules - viewed with a scanning tunneling microscope, a device that magnifies them 100 million times. These two-atom molecules were moved to create images, which were then saved as individual frames to make the film. The movie has been recognized by the Guinness Book of World Records as the World's Smallest Stop-motion Film. <span style = "font-weight: 400">Identify X, the technology giant that released it.</span>
+		</div>
+
+		<div class = "answer-explanation" id = "answer-explanation">
+			<center><img src = "abaha.jpg" height = "250"></center>
+		</div>
+		
+		<div class = "actions">
+			<a href = "javascript: location.reload()" id = "reload">view question &nbsp; &bull; &nbsp; </a> <a href = "javascript: showAnswer()" id = "answer-link">view answer &nbsp; &bull; &nbsp;</a>  <a href = "javascript: window.close()">return to grid </a>&nbsp;  
+		</div>
+	</div>
+</body>
+</html>

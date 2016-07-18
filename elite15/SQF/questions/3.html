@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Question 3 | e-Lite 2015</title>
+	<link rel = "stylesheet" type = "text/css" href = "../assets/style.css">
+	<script type = "text/javascript">
+
+		function showAnswer() {
+			content = document.getElementById("content");
+			answer_link = document.getElementById("answer-link");
+			answer_explanation = document.getElementById("answer-explanation");
+			content.style.textAlign = "center";
+			content.style.fontSize = "300%";
+			content.innerHTML = "Tim Cook";
+			answer_explanation.style.display = "block";
+			answer_link.style.display = "none";
+			document.getElementById("reload").style.display = "inline-block";
+		}
+
+	</script>
+</head>
+<body>
+	<div class = "vertical">
+		
+		
+		<div class = "question-number">
+			3
+		</div>
+
+		<div class = "question-content" id = "content" style = "font-size: 140%">
+			'Throughout my professional life, I've tried to maintain a basic level of privacy. I come from humble roots, and I don't seek to draw attention to myself - I like keeping the focus on our products and the incredible things our customers achieve with them. At the same time, I believe deeply in the words of Dr. Martin Luther King, who said: 'Life's most persistent and urgent question is, what are you doing for others?' I often challenge myself with that question, and I've come to realize that my desire for personal privacy has been holding me back from doing something more important. When I arrive in my office each morning, I'm greeted by framed photos of Dr. King and Robert F. Kennedy. I don't pretend that writing this puts me in their league. All it does is allow me to look at those pictures and know that I'm doing my part, however small, to help others. We pave the sunlit path toward justice together, brick by brick. This is my brick.'
+			<span style = "font-weight: 400">Who said this in a long letter on October 30, 2014 and why? </span>
+		</div>
+
+		<div class = "answer-explanation" id = "answer-explanation">
+			Declaring that he was 'proud to be gay' in an open letter published on the internet.
+		</div>
+		
+		<div class = "actions">
+			<a href = "javascript: location.reload()" id = "reload">view question &nbsp; &bull; &nbsp; </a> <a href = "javascript: showAnswer()" id = "answer-link">view answer &nbsp; &bull; &nbsp;</a>  <a href = "javascript: window.close()">return to grid </a>&nbsp;  
+		</div>
+	</div>
+</body>
+</html>

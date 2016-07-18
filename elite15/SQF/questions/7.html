@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Question 7 | e-Lite 2015</title>
+	<link rel = "stylesheet" type = "text/css" href = "../assets/style.css">
+	<script type = "text/javascript">
+
+		function showAnswer() {
+			content = document.getElementById("content");
+			answer_link = document.getElementById("answer-link");
+			answer_explanation = document.getElementById("answer-explanation");
+			content.style.textAlign = "center";
+			content.style.fontSize = "300%";
+			content.innerHTML = "Ookla";
+			answer_explanation.style.display = "block";
+			answer_link.style.display = "none";
+			document.getElementById("reload").style.display = "inline-block";
+		}
+
+	</script>
+</head>
+<body>
+	<div class = "vertical">
+		
+		
+		<div class = "question-number">
+			7
+		</div>
+
+		<div class = "question-content" id = "content" style = "font-size: 160%">
+			Founded by Internet and telecommunications veterans in 2006, X calls itself the 'global standard in internet metrics'. Headquartered in Seattle, it operates many network diagnostic applications, but its flagship service is a free-of-cost broadband speed measurement tool. <span style = "font-weight: 400">Identify X.</span>
+		</div>
+
+		<div class = "answer-explanation" id = "answer-explanation">
+	
+		</div>
+		
+		<div class = "actions">
+			<a href = "javascript: location.reload()" id = "reload">view question &nbsp; &bull; &nbsp; </a> <a href = "javascript: showAnswer()" id = "answer-link">view answer &nbsp; &bull; &nbsp;</a>  <a href = "javascript: window.close()">return to grid </a>&nbsp;  
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Question 8 | e-Lite 2015</title>
+	<link rel = "stylesheet" type = "text/css" href = "../assets/style.css">
+	<script type = "text/javascript">
+
+		function showAnswer() {
+			content = document.getElementById("content");
+			answer_link = document.getElementById("answer-link");
+			answer_explanation = document.getElementById("answer-explanation");
+			content.style.textAlign = "center";
+			content.style.fontSize = "300%";
+			content.innerHTML = "The launch of TIDAL";
+			answer_explanation.style.display = "block";
+			answer_link.style.display = "none";
+			document.getElementById("reload").style.display = "inline-block";
+		}
+
+	</script>
+</head>
+<body>
+	<div class = "vertical">
+		
+		
+		<div class = "question-number">
+			8
+		</div>
+
+		<div class = "question-content" id = "content" style = "font-size: 150%">
+			<center><img src = "tidal.jpg" height = "250"></center><br />
+			This picture is from a recent press conference called by singer Jay Z, featuring some of the most famous musicians in America, including DeadMau5, Rihanna and Chris Martin. <span style = "font-weight: 400">What is happening?</span>
+
+		</div>
+
+		<div class = "answer-explanation" id = "answer-explanation">
+			A music streaming service to rival Spotify, acquired by singer Jay Z; co-owned by 16 American musicians, and hence called, 'artist-owned'.
+		</div>
+		
+		<div class = "actions">
+			<a href = "javascript: location.reload()" id = "reload">view question &nbsp; &bull; &nbsp; </a> <a href = "javascript: showAnswer()" id = "answer-link">view answer &nbsp; &bull; &nbsp;</a>  <a href = "javascript: window.close()">return to grid </a>&nbsp;  
+		</div>
+	</div>
+</body>
+</html>

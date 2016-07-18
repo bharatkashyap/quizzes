@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Software | e-Lite 2015</title>
+	<link rel = "stylesheet" type = "text/css" href = "../assets/style.css">
+	<script type = "text/javascript">
+
+		function showAnswer() {
+			content = document.getElementById("content");
+			answer_link = document.getElementById("answer-link");
+			answer_explanation = document.getElementById("answer-explanation");
+			content.style.textAlign = "center";
+			content.style.fontSize = "300%";
+			content.innerHTML = "SoundHound";
+			answer_explanation.style.display = "block";
+			answer_link.style.display = "none";
+			document.getElementById("reload").style.display = "inline-block";
+		}
+
+	</script>
+</head>
+<body>
+	<div class = "vertical">
+		
+		
+		<div class = "question-number">
+			Software
+		</div>
+
+		<div class = "question-content" id = "content">
+			Identify the developers of this revolutionary piece of software.
+			<br /><br />
+			<center>
+				<video width="400" controls>
+				  <source src="multimedia/Hound.mp4" type="video/mp4">
+				  Your browser does not support HTML5 video.
+				</video>
+			</center>
+
+		</div>
+
+		<div class = "answer-explanation" id = "answer-explanation">
+			Sound recognition and cognition technology company, founded by three Ph.D students from Stanford in 2007.
+		</div>
+		
+		<div class = "actions">
+			<a href = "javascript: location.reload()" id = "reload">view question &nbsp; &bull; &nbsp; </a> <a href = "javascript: showAnswer()" id = "answer-link">view answer &nbsp; &bull; &nbsp;</a>  <a href = "javascript: window.close()">return to grid </a>&nbsp;  
+		</div>
+	</div>
+</body>
+</html>

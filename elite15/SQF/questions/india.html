@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>India | e-Lite 2015</title>
+	<link rel = "stylesheet" type = "text/css" href = "../assets/style.css">
+	<script type = "text/javascript">
+
+		function showAnswer() {
+			content = document.getElementById("content");
+			answer_link = document.getElementById("answer-link");
+			answer_explanation = document.getElementById("answer-explanation");
+			content.style.textAlign = "center";
+			content.style.fontSize = "300%";
+			content.innerHTML = "DataWind, Aakash tablet";
+			answer_explanation.style.display = "block";
+			answer_link.style.display = "none";
+			document.getElementById("reload").style.display = "inline-block";
+		}
+
+	</script>
+</head>
+<body>
+	<div class = "vertical">
+		
+		
+		<div class = "question-number">
+			India
+		</div>
+
+		<div class = "question-content" id = "content">
+			X is a wireless web access products and services developer founded in Montreal, Canada. The company is now widely known for its development of the Y, developed in collaboration with India's Ministry for Human Resource Development (MHRD). In addition to its Y product range, X has been manufacturing since 2004, a series of mobile internet devices branded as the 'PocketSurfer' smartphones and 'UbiSurfer' netbooks. The company still maintains its research and development operations in Montreal but it has offices in London, Delhi and Amritsar. Identify X and Y.
+
+
+		</div>
+
+		<div class = "answer-explanation" id = "answer-explanation">
+			<center><img src = "multimedia/Montreal.jpg" height = "280"></center>
+		</div>
+		
+		<div class = "actions">
+			<a href = "javascript: location.reload()" id = "reload">view question &nbsp; &bull; &nbsp; </a> <a href = "javascript: showAnswer()" id = "answer-link">view answer &nbsp; &bull; &nbsp;</a>  <a href = "javascript: window.close()">return to grid </a>&nbsp;  
+		</div>
+	</div>
+</body>
+</html>

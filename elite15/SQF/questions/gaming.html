@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Gaming | e-Lite 2015</title>
+	<link rel = "stylesheet" type = "text/css" href = "../assets/style.css">
+	<script type = "text/javascript">
+
+		function showAnswer() {
+			content = document.getElementById("content");
+			answer_link = document.getElementById("answer-link");
+			answer_explanation = document.getElementById("answer-explanation");
+			content.style.textAlign = "center";
+			content.style.fontSize = "250%";
+			content.innerHTML = "It was the first game ever released which featured a first-person perspective.";
+			answer_explanation.style.display = "block";
+			answer_link.style.display = "none";
+			document.getElementById("reload").style.display = "inline-block";
+		}
+
+	</script>
+</head>
+<body>
+	<div class = "vertical">
+		
+		
+		<div class = "question-number">
+			Gaming
+		</div>
+
+		<div class = "question-content" id = "content">
+			The game shown here is called Ultima Underworld : The Stygian Abyss. Developed in 1992, the game is, admittedly, not too spectacular. On looking at its gameplay closely however, you will notice, that it is extremely noteworthy. What is so special about Ultima Underworld?<br /><br />
+			<center>
+				<video width="400" controls>
+				  <source src="multimedia/UltimaUnderworld.mp4" type="video/mp4">
+				  Your browser does not support HTML5 video.
+				</video>
+			</center>
+
+		</div>
+
+		<div class = "answer-explanation" id = "answer-explanation">
+			<center><img src = "multimedia/UltimaUnderworld.png" height = "250"></center>
+		</div>
+		
+		<div class = "actions">
+			<a href = "javascript: location.reload()" id = "reload">view question &nbsp; &bull; &nbsp; </a> <a href = "javascript: showAnswer()" id = "answer-link">view answer &nbsp; &bull; &nbsp;</a>  <a href = "javascript: window.close()">return to grid </a>&nbsp;  
+		</div>
+	</div>
+</body>
+</html>

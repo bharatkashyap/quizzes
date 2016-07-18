@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Question 6 | e-Lite 2015</title>
+	<link rel = "stylesheet" type = "text/css" href = "../assets/style.css">
+	<script type = "text/javascript">
+
+		function showAnswer() {
+			content = document.getElementById("content");
+			answer_link = document.getElementById("answer-link");
+			answer_explanation = document.getElementById("answer-explanation");
+			content.style.textAlign = "center";
+			content.style.fontSize = "300%";
+			content.innerHTML = "";
+			answer_explanation.style.display = "block";
+			answer_link.style.display = "none";
+			document.getElementById("reload").style.display = "inline-block";
+		}
+
+	</script>
+</head>
+<body>
+	<div class = "vertical">
+		
+		
+		<div class = "question-number">
+			6
+		</div>
+
+		<div class = "question-content" id = "content" style = "font-size: 160%">
+			In 2005, a man called Doug Heckman, while installing utility software for his PC, noticed something in the end user license agreement that 3000 users before him had failed to notice. He called the software company up, enquired about what he had seen, and ended up getting $1,000 richer. <span style = "font-weight: 400">What did he find?</span>
+		</div>
+
+		<div class = "answer-explanation" id = "answer-explanation">
+			To prove that no one really reads EULAs, a utility software maker called 'PC Pitstop' added a 'special consideration' clause to its agreement saying that those who read this section may be 'financially compensated'. It took five months after the release for them to receive their first, and only, call.  <br /><br />
+			<center><img src = "pitstop.jpg" height = "250"></center>
+
+		</div>
+		
+		<div class = "actions">
+			<a href = "javascript: location.reload()" id = "reload">view question &nbsp; &bull; &nbsp; </a> <a href = "javascript: showAnswer()" id = "answer-link">view answer &nbsp; &bull; &nbsp;</a>  <a href = "javascript: window.close()">return to grid </a>&nbsp;  
+		</div>
+	</div>
+</body>
+</html>

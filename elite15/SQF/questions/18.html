@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Question 18 | e-Lite 2015</title>
+	<link rel = "stylesheet" type = "text/css" href = "../assets/style.css">
+	<script type = "text/javascript">
+
+		function showAnswer() {
+			content = document.getElementById("content");
+			answer_link = document.getElementById("answer-link");
+			answer_explanation = document.getElementById("answer-explanation");
+			content.style.textAlign = "center";
+			content.style.fontSize = "300%";
+			content.innerHTML = "2048";
+			answer_explanation.style.display = "block";
+			answer_link.style.display = "none";
+			document.getElementById("reload").style.display = "inline-block";
+		}
+
+	</script>
+</head>
+<body>
+	<div class = "vertical">
+		
+		
+		<div class = "question-number">
+			18
+		</div>
+
+		<div class = "question-content" id = "content" style = "font-size: 140%">
+			This is a single-player puzzle game created in March 2014 by 19-year-old Italian web developer Gabriele Cirulli, who created the game in a single weekend as a test to see if he could program a game from scratch, describing it as a clone of an app by Veewo Studios. Gabrielle was surprised when his game received over 4 million visitors in less than a week, especially since it was just a weekend project. 'It was a way to pass the time', he said. Spinoffs of this game include versions with elements from 'Doge', 'Doctor Who', 'Flappy Bird' and Tetris. <span style = "font-weight: 400">Identify.</span>
+		</div>
+
+		<div class = "answer-explanation" id = "answer-explanation">
+			 <center><img src = "2048.png" height = "250"></center>
+		</div>
+		
+		<div class = "actions">
+			<a href = "javascript: location.reload()" id = "reload">view question &nbsp; &bull; &nbsp; </a> <a href = "javascript: showAnswer()" id = "answer-link">view answer &nbsp; &bull; &nbsp;</a>  <a href = "javascript: window.close()">return to grid </a>&nbsp;  
+		</div>
+	</div>
+</body>
+</html>l

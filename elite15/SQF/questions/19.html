@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Question 19 | e-Lite 2015</title>
+	<link rel = "stylesheet" type = "text/css" href = "../assets/style.css">
+	<script type = "text/javascript">
+
+		function showAnswer() {
+			content = document.getElementById("content");
+			answer_link = document.getElementById("answer-link");
+			answer_explanation = document.getElementById("answer-explanation");
+			content.style.textAlign = "center";
+			content.style.fontSize = "250%";
+			content.innerHTML = "The National Security Agency (NSA)";
+			answer_explanation.style.display = "block";
+			answer_link.style.display = "none";
+			document.getElementById("reload").style.display = "inline-block";
+		}
+
+	</script>
+</head>
+<body>
+	<div class = "vertical">
+		
+		
+		<div class = "question-number">
+			19
+		</div>
+
+		<div class = "question-content" id = "content" style = "font-size: 140%">
+			This encrypted tweet (in substitution cypher) was posted by a famous organisation, aimed at those seeking to work for it. It took the world by storm a year ago. <span style = "font-weight: 400">Which organisation?</span>
+			<br /><br />
+			<center><img src = "nsa-old.png" height = "300"></center>
+		</div>
+
+		<div class = "answer-explanation" id = "answer-explanation">
+			"Want to know what it takes to work at NSA? Check back each Monday in May as we explore careers essential to protecting our nation."
+			<br /><br />
+			<center><img src = "nsa.jpg" height = "200"></center>
+		</div>
+		
+		<div class = "actions">
+			<a href = "javascript: location.reload()" id = "reload">view question &nbsp; &bull; &nbsp; </a> <a href = "javascript: showAnswer()" id = "answer-link">view answer &nbsp; &bull; &nbsp;</a>  <a href = "javascript: window.close()">return to grid </a>&nbsp;  
+		</div>
+	</div>
+</body>
+</html>l

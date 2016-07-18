@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Question 4 | e-Lite 2015</title>
+	<link rel = "stylesheet" type = "text/css" href = "../assets/style.css">
+	<script type = "text/javascript">
+
+		function showAnswer() {
+			content = document.getElementById("content");
+			answer_link = document.getElementById("answer-link");
+			answer_explanation = document.getElementById("answer-explanation");
+			content.style.textAlign = "center";
+			content.style.fontSize = "300%";
+			content.innerHTML = "Shawn Fanning, Napster";
+			answer_explanation.style.display = "block";
+			answer_link.style.display = "none";
+			document.getElementById("reload").style.display = "inline-block";
+		}
+
+	</script>
+</head>
+<body>
+	<div class = "vertical">
+		
+		
+		<div class = "question-number">
+			4
+		</div>
+
+		<div class = "question-content" id = "content" style = "font-size: 160%">
+			In 2003, X made a cameo appearance, playing himself, in the 2003 film 'The Italian Job'. In the film, one of the lead characters accuses X of stealing Y from him while he was taking a nap in their Northeastern University dorm room. Although other characters see this as mere bragging, a later scene shows X in fact creeping over Green's sleeping body to steal the code for Y. <span style = "font-weight: 400">Identify X and the music sharing website Y - his most famous creation.</span>
+		</div>
+
+		<div class = "answer-explanation" id = "answer-explanation">
+			<center><img src = "fanning.jpg" height = "250"></center>
+		</div>
+		
+		<div class = "actions">
+			<a href = "javascript: location.reload()" id = "reload">view question &nbsp; &bull; &nbsp; </a> <a href = "javascript: showAnswer()" id = "answer-link">view answer &nbsp; &bull; &nbsp;</a>  <a href = "javascript: window.close()">return to grid </a>&nbsp;  
+		</div>
+	</div>
+</body>
+</html>
