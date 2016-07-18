@@ -1,0 +1,147 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,600,400);
+
+@font-face {
+    font-family: Pontano Sans;
+    src: url(PontanoSans-Regular.ttf);
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: 'Pontano Sans','Open Sans', sans-serif;
+}
+
+.container {
+	height: 100%;
+	width: 100%;
+}
+
+.vertical {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+}
+
+.alt-header {
+	text-align: center;
+	font-size: 260%;
+	margin-top: 3%;
+	font-weight: 300;
+}
+
+.alt-sub-header {
+	text-align: center;
+	font-size: 200%;
+	font-weight: 300;
+	margin-top: 1%;
+	color: grey;
+}
+
+.header {
+	text-align: center;
+	font-size: 250%;
+	font-weight: 300;
+	margin-top: 1%;
+}
+
+	.subheader {
+		text-align: center;
+		font-size: 180%;
+		margin-top: 1%;
+		font-weight: 300;
+		color: grey;
+	}
+
+.rule {
+	margin-left: 15%;
+	font-size: 140%;
+	font-weight: 300;
+	margin-top: 3%;
+	width: 60%;
+	list-style-type: bullet;
+}
+
+.question-number {
+	text-align: center;
+	font-size: 250%;
+}
+
+.question-content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	font-size: 160%;
+	line-height: 1.6em;
+	font-weight: 300;
+	margin-top: 3%;
+}
+
+.answer-explanation {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	font-size: 140%;
+	font-weight: 300;
+	margin-top: 3%;
+}
+
+.actions {
+	text-align: center;
+	color: grey;
+	font-weight: 300;
+	font-size: 130%;
+	margin-top: 3%;
+}
+
+	.actions a {
+		text-decoration: none;
+		color: grey;
+	}
+
+	#reload, #answer-explanation {
+		display: none;
+	}
+
+table {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 160%;
+	width: 80%;
+	border-collapse: collapse;
+	font-weight: 300;
+}
+
+	table td {
+		padding: 3%;
+		border: 1px solid silver;
+	}
+
+	table td:nth-of-type(1) {
+		border-left: none;
+	}
+
+	table td:nth-of-type(6) {
+		border-right: none;
+	}
+
+	table td a {
+		color: black;
+		text-decoration: none;
+	}
+
+	table td a:visited {
+		display: none;
+	}
+
+.block {
+	height: 15%;
+	width: 100%;
+}
