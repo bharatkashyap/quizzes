@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Question 3 | e-Lite 2015</title>
+	<link rel = "stylesheet" type = "text/css" href = "../assets/style.css">
+	<script type = "text/javascript">
+
+		function showAnswer() {
+			content = document.getElementById("content");
+			answer_link = document.getElementById("answer-link");
+			answer_explanation = document.getElementById("answer-explanation");
+			content.style.textAlign = "center";
+			content.style.fontSize = "300%";
+			content.innerHTML = "Vim";
+			answer_explanation.style.display = "block";
+			answer_link.style.display = "none";
+			document.getElementById("reload").style.display = "inline-block";
+		}
+
+	</script>
+</head>
+<body>
+	<div class = "vertical">
+		
+		
+		<div class = "question-number">
+			3
+		</div>
+
+		<div class = "question-content" id = "content">
+			X is a text editor software developed by Bram Moolenaar in 1991. It was designed with the primary aim of adding additional features for editing source code. It is free, open source and is released under a license that includes some charityware clauses, encouraging users who enjoy the software to consider donating to children in Uganda. Although X was originally released for the Amiga, it has since been developed to be cross-platform, supporting many other platforms. What is X?
+		</div>
+
+		<div class = "answer-explanation" id = "answer-explanation">
+			
+		</div>
+		
+		<div class = "actions">
+			<a href = "javascript: location.reload()" id = "reload">view question &nbsp; &bull; &nbsp; </a> <a href = "javascript: showAnswer()" id = "answer-link">view answer &nbsp; &bull; &nbsp;</a>  <a href = "javascript: window.close()">return to grid </a>&nbsp;
+		</div>
+	</div>
+</body>
+</html>

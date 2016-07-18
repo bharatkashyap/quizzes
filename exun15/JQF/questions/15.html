@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Question 15 | e-Lite 2015</title>
+	<link rel = "stylesheet" type = "text/css" href = "../assets/style.css">
+	<script type = "text/javascript">
+
+		function showAnswer() {
+			content = document.getElementById("content");
+			answer_link = document.getElementById("answer-link");
+			answer_explanation = document.getElementById("answer-explanation");
+			content.style.textAlign = "center";
+			content.style.fontSize = "300%";
+			content.innerHTML = "";
+			answer_explanation.style.display = "block";
+			answer_link.style.display = "none";
+			document.getElementById("reload").style.display = "inline-block";
+		}
+
+	</script>
+</head>
+<body>
+	<div class = "vertical">
+		
+		
+		<div class = "question-number">
+			15
+		</div>
+
+		<div class = "question-content" id = "content" style = "font-size: 160%">
+Expatt.org is a hub for connecting employers to those looking for jobs, focussing on Europe and Central Asia. It is currently in beta mode, and is expected to launch fully in the coming months. They bill themselves as 'a non-profit startup who is really concerned about the socio-economic impact of unemployment.' <span style = "font-weight: 400">What is so unique about this employment website?</span>
+		</div>
+
+		<div class = "answer-explanation" id = "answer-explanation">
+			It offers employment opportunities to refugees - to connect them with companies or jobs they may have worked before being displaced.
+		</div>
+		
+		<div class = "actions">
+			<a href = "javascript: location.reload()" id = "reload">view question &nbsp; &bull; &nbsp; </a> <a href = "javascript: showAnswer()" id = "answer-link">view answer &nbsp; &bull; &nbsp;</a>  <a href = "javascript: window.close()">return to grid </a>&nbsp;
+		</div>
+	</div>
+</body>
+</html>l

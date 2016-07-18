@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Question 8 | e-Lite 2015</title>
+	<link rel = "stylesheet" type = "text/css" href = "../assets/style.css">
+	<script type = "text/javascript">
+
+		function showAnswer() {
+			content = document.getElementById("content");
+			answer_link = document.getElementById("answer-link");
+			answer_explanation = document.getElementById("answer-explanation");
+			content.style.textAlign = "center";
+			content.style.fontSize = "300%";
+			content.innerHTML = "leet";
+			answer_explanation.style.display = "block";
+			answer_link.style.display = "none";
+			document.getElementById("reload").style.display = "inline-block";
+		}
+
+	</script>
+</head>
+<body>
+	<div class = "vertical">
+		
+		
+		<div class = "question-number">
+			8
+		</div>
+
+		<div class = "question-content" id = "content" style = "font-size: 150%">
+
+			X is an alternative alphabet for many languages that is used primarily on the Internet. It uses various combinations of ASCII characters to replace Latinate letters. For example, X spellings of the word &lsquo;X&rsquo; include 1337 and l33t. X&apos;s name is derived from the word &lsquo;elite&rsquo; and it traces back its origins to the bulletin board systems of the 1980s. What is X?
+
+		</div>
+
+		<div class = "answer-explanation" id = "answer-explanation">
+					</div>
+		
+		<div class = "actions">
+			<a href = "javascript: location.reload()" id = "reload">view question &nbsp; &bull; &nbsp; </a> <a href = "javascript: showAnswer()" id = "answer-link">view answer &nbsp; &bull; &nbsp;</a>  <a href = "javascript: window.close()">return to grid </a>&nbsp;
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Question 18 | e-Lite 2015</title>
+	<link rel = "stylesheet" type = "text/css" href = "../assets/style.css">
+	<script type = "text/javascript">
+
+		function showAnswer() {
+			content = document.getElementById("content");
+			answer_link = document.getElementById("answer-link");
+			answer_explanation = document.getElementById("answer-explanation");
+			content.style.textAlign = "center";
+			content.style.fontSize = "300%";
+			content.innerHTML = "Li Fi";
+			answer_explanation.style.display = "block";
+			answer_link.style.display = "none";
+			document.getElementById("reload").style.display = "inline-block";
+		}
+
+	</script>
+</head>
+<body>
+	<div class = "vertical">
+		
+		
+		<div class = "question-number">
+			18
+		</div>
+
+		<div class = "question-content" id = "content" style = "font-size: 140%">
+			<center><video height=400 controls><source src=multimedia/light.mp4></video> <br/>The technology being used in the video, invented and named by Prof. Harold Hass of the University of Edinburgh, Scotland, is a wireless communication method which uses visible light to transmit data. In recent tests outside the laboratory, it managed to achieve sustained data transfer rates of 1 gigabyte per second. What is this technology commonly called? </center>
+		</div>
+
+		<div class = "answer-explanation" id = "answer-explanation">
+
+		</div>
+		
+		<div class = "actions">
+			<a href = "javascript: location.reload()" id = "reload">view question &nbsp; &bull; &nbsp; </a> <a href = "javascript: showAnswer()" id = "answer-link">view answer &nbsp; &bull; &nbsp;</a>  <a href = "javascript: window.close()">return to grid </a>&nbsp;
+		</div>
+	</div>
+</body>
+</html>l
