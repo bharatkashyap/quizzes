@@ -1,5 +1,8 @@
+#Exun e-Lite 2015 Senior, Junior Quiz Finals  
+
+
 Please try to have maximum screen space on whatever 
-browser you use. Preffered viewing environment would be
+browser you use. Preferred viewing environment would be
 Presentation Mode in Google Chrome.
 
 -------
@@ -35,4 +38,6 @@ may give answers away.
 
 When you click on a question number in the grid, the question will
 open in a new tab and corresponding question number is greyed out.
-Do not close the page with the grid.
+Do not close the page with the grid.  
+
+Quiz structure built by Madhav Narayan
