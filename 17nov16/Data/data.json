@@ -1,0 +1,169 @@
+{
+  "title" : "Quiz",
+
+  "day" : "Thursday, 17/11/2016",
+
+  "rules":
+  [
+    {"rule" : "Infinite pounce, followed by bounce"},
+    {"rule" : "+10/-5 on pounce, +10/0 on bounce"},
+    {"rule" : "Question setter's discretion is paramount"}
+  ],
+
+  "questions":
+  [
+    { "question" : "This piece of land, accepted by the Sultan of Oman as a gift in 1783, was administered from the mid 19th century to 1947 by a British agency; post independence, it is said - although such claims are unverifiable - that this was offered as a gift to the newly formed Indian government, which declined to accept. The land - nothing more than a few fishing villages at the time - went on to be sold to another nation, in 1958 for $3 million. <br/><br/>Recently however, this land has shot to fame due to the strategic importance that has come to be associated with it. What is being talked about? ",
+      "answer" : "Gwadar, now the site of the Gwadar Port, constructed as part of the China Pakistan Economic Corridor</em>",
+      "answerImg" : "../Media/1exp.png"
+    },
+    { "question" : "Wanting to portray a '<em>strengthened and modernized</em>' image, this company in 2013 decided to change their name from X to __, an acronym of the original. Unfortunately for them, no one took the time to do a Google search, since if they had, they would have quickly realized that their new name was also the name of a Spanish, gay soft porn magazine that likes to feature young men in their underwear, or nothing at all. <br/>Oddly enough, the magazine used to be called <em>Electric Youth</em> before they too decided to rebrand, to avoid confusion with the classic Debbie Gibson song. <br/><br/>What is X?",
+      "answer" : "Ernst&Young, EY",
+      "answerImg" : "../Media/2exp.png"
+    },
+     { "question" : "In fifth century BC Athens, a method of 10-year banishment came into being, whereby the citizens gathered once every year at the <em>agora</em> - a centre of commerce and politics - and each wrote on a tile the name of a man they deemed as having acquired too much power, and thus dangerous to the liberties of the people. The man whose name turned up most often (and more than 6,000 times) was exiled from Athens. <br/>The tile or pot shard used in the process was called an '<em>ostrakon</em>' and is the root word for the oft-used English word X. <br/><br/>This Greek practice is also seemingly the inspiration behind a concept on reality television shows, first seen on Indian TV on the popular series Y. <br/><br/> What word? What concept and which series?",
+      "answer" : "<em>Ostracise</em>, Vote out - Roadies",
+      "answerImg" : "../Media/3exp.jpg"
+    },
+    { "question" : "'<em>Bart to the Future</em>', an episode of The Simpsons first aired in 2000, sees Bart offered a vision of his world, 30 years into the future. The episode has shot to fame very recently, due to its remarkably accurate depiction of Donald Trump as president of the United States. However, expecting the entire course of events depicted in the episode to come to pass, a section of people (especially Democrats) have indeed taken heart from it. <br/><br/>Who is shown to succeed Donald Trump in the episode?" ,
+      "answer" : "Lisa Simpson, America's first straight female president",
+      "answerImg" : "../Media/4exp.jpg"
+    },
+    { "question" : "<video src = 5.mp4 controls></video> <br/> Name this 1990 British political thriller TV series, credited with, among other things, introducing the phrase '<em>I couldn't possibly comment</em>' to the House of Commons.",
+      "answer" : "House of Cards",
+      "answerImg" : "../Media/5exp.png"
+    },
+    { "question" : "Construction on this 58km long project began in 1887; it took 15 years and cost £15 million to build. Its construction and subsequent opening was greeted with great fanfare by the local population - since it helped their city compete with a local rival in becoming one of the centres of trade of the country. <br/><br/>This project is also referenced by two world famous entities, founded in 1878 and 1880 respectively - in a certain way that is followed to date. <br/><br/>What is this project? How do said entities reference it?",
+      "answer" : "Manchester Ship Canal <br/>The ships in the crests of Manchester United and Manchester City football clubs",
+      "answerImg" : "../Media/6exp.png"
+    },
+    { "question" : "Many private agencies have been historically contracted by the United States government to test cash - and almost all of them have shown dollar bills to be overwhelmingly contaminated by X - so much so that the government has now stopped testing, and accepted this contamination as something they can do precious little about - except asking citizens to wash their hands after touching cash. <br/><br/> What is X?",
+      "answer" : "Cocaine",
+      "answerImg" : "../Media/7exp.png"
+    },
+    { "question" : "Similar to '<em>Abki baar, Modi sarkaar</em>', the Bharatiya Janta Party's campaign slogan for the 1996 general elections was, '<em>Sabko dekha baari baari, abki baari ____ ______'</em><br/><br/>Fill in the blank.",
+      "answer" : "<em>Sabko dekha baari baari, abki baari Atal Bihari</em>",
+      "answerImg" : "../Media/8exp.jpg"
+    },
+    { "question" : "The author of this 16th century book, published originally in Latin - Sir Thomas More, was declared a communist hero by Lenin, and even has a commemorative monument in Moscow, because his book, among other things, mentions abolishment of private property ownership and a welfare state as the fundamental tenets of an ideal public administration. <br/><br/>The book is most famously remembered, however, for giving its name to a term that has a history of varied political usage, and is today used generically to refer to a particular type of society. <br/><br/>What is the name of the book? ",
+      "answer" : "Utopia",
+      "answerImg" : "../Media/9exp.jpg"
+    },
+    { "question" : "'<em>Invented</em>' by two students in Vermont in 2005, this sport is now played by 20,000 players in 25 countries, some of which have lively university and college leagues. There is also a biannual _________ World Cup, most recently won by Australia in July. At the launch of the UK Premier league of the sport, the organisers said, <blockquote>'The _________ Premier League is such an exciting opportunity and development. It’s an opportunity for the sport to grow and gain prestige. It’s an opportunity for players to compete at the highest level. And, most importantly, it’s an opportunity for more people in more places to find out about this incredible sport.'</blockquote><br/>What sport?",
+      "answer" : "Quidditch",
+      "answerImg" : "../Media/10exp.jpg"
+    },
+    { "question" : "Mentioning a slew of enivornment-friendly measures taken by them, a press release issued by the CIA on Earth Day, 2011, proclaimed that 'to reuse energy, we decided to heat the water used at our headquarters in Virginia using steam generated from the exhaust of the ___________.' <br/><br/>What novel power saving method were they talking about?",
+      "answer" : "Energy from the incinerator used to burn classified documents",
+      "answerImg" : "../Media/11exp.png"
+    },
+    { "question" : "For more than five centuries, the Halve Maan brewery in Bruges, Belgium, has been making beer. Since Bruges is a small city which dates back to the year 840,  its roads are narrow and paved in cobblestones and  predate cars, trucks, and buses. The medieval feel of Bruges has been a boon for De Halve Maan — nearly 100,000 tourists visit its facilities each year, taking in the frozen-in-time aspects of the city’s architecture while downing a fresh pint right from the brewery itself. But due to the increased beer production, those roads have become a problem. To get beer from the brewery, De Halve Maan needed a seemingly infinite stream of trucks to come in and out, and the local infrastructure simply didn’t allow for it.<br/><br/>In 2011 however, looking at a few engineers from the local telecom company working outside his brewery is allegedly what inspired De Halve Maan's owner to come up with a novel method of transportation - one that has only recently been inaugurated in Bruges. <br/>What?",
+      "answer" : "Underground pipelines",
+      "answerImg" : "../Media/12exp.png"
+    },
+    { "question" : "Named after his son Carl, the Carlsberg Brewery was established by Jacob Christian Jacobsen in Valby, just outside Copenhagen. Jacobsen the elder set up his residence there in 1854. When he died in 1887, his will stipulated that after the villa had been occupied for life by Carl, it should be used as an Honorary Residence by 'a man or a woman deserving of esteem from the community by reason of services to science, literature, or art, or for other reasons.' <br/><br/> The residents were to be chosen by the Royal Danish Academy of Sciences and Letters, whereas the upkeep was to be the responsibility of the Carlsberg Foundation, which was established by Jacobsen in 1876. <br/>Who was the most famous resident of this Honorary Residence?",
+      "answer" : "Niels Bohr",
+      "answerImg" : "../Media/13exp.jpg"
+    },
+    { "question" : "<img src = ../Media14.jpg height = 50% width = 50%> <br/>One out of the outlined languages is Hindi. Identify the other two.",
+      "answer" : "Konkani, followed by Marathi"
+    },
+    { "question" : "The Toyota Hilux is a series of light SUV/pickup trucks that have been in production since 1968 till date. It has a reputation for exceptional sturdiness and reliability during sustained heavy use - or even abuse - a reputation that was put to the most brutal of tests by Jeremy Clarkson and co. during two episodes of Top Gear Series 3. The crew bought a 1990 Hilux; subsequently they crashed it into a tree, submerged it in the ocean for five hours, dropped it from about 10 feet, tried to crush it under an RV, drove it through a portable building, hit it with a wrecking ball, and set it on fire. Finally, they placed it on top of a 240-foot tower block that was then destroyed in a controlled demolition. When they dug it out of the rubble, all it took to get it running again was hammers, wrenches, and lubricant. They didn't even need spare parts. <br/><br/>Despite being the world's highest selling small truck, the Hilux has recently shot to notoriety because of a pattern that authorities around the world are only beginning to notice recently - a pattern that probably has something to do with its indestructable reputation. What?",
+      "answer" : "",
+      "answerImg" : "../Media/15exp.png"
+    },
+    { "question" : "The name of this animal, X, is - according to a section of linguists - derived from the Arabic word for love poetry, Y. The connection finds its roots in one of the traditional themes of Arabic love poetry, which involves comparing the beauty of one's beloved to the X. <br/><br/>Identify X and Y.",
+      "answer" : "X : Gazelle, Y : <em>Ghazal</em>",
+      "answerImg" : "../Media/16exp.jpg"
+    },
+    { "question" : "Started as <em>Mysore Lac and Paints Limited</em> by Maharaja Nalvadi Krishnaraja Wodeyar of Mysore in 1937, today, this company is owned and operated by the Government of Karnataka under the name <em>Mysore Paints and Varnish Limited</em>. Although the company manufactures a number of products - it is the only company in India to be permitted to produce a certain item - something that has recently seen a demand surge. <br/><br/>What?",
+      "answer" : "Indelible Ink",
+      "answerImg" : "../Media/17exp.jpg"
+    },
+    { "question" : "Train number 16023/4 is an express, unreserved train of the Indian Railways that runs between Yeshwantpur (Bengaluru) and Mysuru. In 2011, this train was given a more endearing title, something fitting to that particular section of the country. <br/><br/>What is its new name?",
+      "answer" : "Malgudi Express",
+      "answerImg" : "../Media/18exp.jpg"
+    },
+    { "question" : "<img src = ../Media/19.jpg><br/>Beginning his career at <em>The Times of India</em> as a trainee, his journalistic career reached its pinnacle when he served as the founding editor of <em>The Telegraph</em> in 1982. Subsequently, his political career began with the Congress party - he served as an MP, and later as Prime Minister Rajiv Gandhi's official spokesperson. After a prolonged absence from politics, in 2014 he switched to the BJP - and has been drafted into the cabinet as Minister of State for External Affairs in July, 2015. <br/><br/>Identify.",
+      "answer" : "M.J. Akbar"
+    },
+    { "question" : "<img src = ../Media/20.jpg><br/>The man pictured is Lou Gehrig - an American baseball player who played 17 seasons for the New York Yankees. A member of the Baseball Hall of Fame, he was the first MLB player to have his jersey number retired by a team. Tragically, however, he was forced to retire at the age of 36 - due to reasons, quite literally, outside his control. <br/><br/>In 2014, however, mentions of Lou Gehrig saw a sudden spike on the internet - majorly due to his connections to a massively viral internet campaign. What?",
+      "answer" : "ALS Ice Bucket Challenge",
+      "answerImg" : "../Media/20exp.png"
+    },
+    { "question" : "<img src = ../Media/21.jpg><br/>Located in the historic Independence Square and formerly called the Independence Arch, this monument commemorates the independence of the country it is located in. Which one? ",
+      "answer" : "Ghana",
+      "answerImg" : "../Media/21exp.png"
+    },
+    { "question" : "<img src = ../Media/22.png><br/>Advertisement for what?",
+      "answer" : "Monster.com <br/><em>Stuck in the wrong job?</em>",
+      "answerImg" : "../Media/22exp.png"
+    },
+    { "question" : "<img src = ../Media/23.png style = 'height : 50%; width : 70%;'><br/>The pair representing the United States of America - apart from being olympian rowers - are also very famous litigants. Identify the American finalists.",
+      "answer" : "The Winklevoss twins",
+      "answerImg" : "../Media/23exp.jpg"
+    },
+    { "question" : "<blockquote>'Having visited CERN myself, I can tell you that X is not on the fourth floor - the CERN office numbering system doesn't work like that - the first digit usually refers to the building number and the second and third, to the office number. The offices start at 410 and work upwards - don't ask me why. Sorry to disappoint you all, but there is no X at CERN - it simply doesn't exist, and certainly hasn't been preserved as the place where the ___ _____. In fact, there is a display about this, including a model of the first NeXT server, but the whole X thing is just a myth.' <br/><br/>What is being talked about?",
+      "answer" : "Room 404 <br/><em>Addressing the myth that the web was invented in Room 404 at CERN",
+      "answerImg" : "../Media/24exp.jpg"
+    },
+    { "question" : "X is a Russian instant messaging application developed by brothers Pavel and Nikolai Durov and is very famous in its home country. However, a chain of WhatsApp messages - started around the time the <em>Make in India</em> scheme was announced - asking users to leave WhatsApp and join X because it is made in India (which it isn't) caused a huge surge in X's popularity, so much so that 1.5 million new subscribers joined the service in two days. Which app? <br/><img src = ../Media/25.png style = 'height : 10%; width : 25%;'> ",
+      "answer" : "Telegram"
+    },
+    { "question" : "Keeping the X running was a difficult task. Earlier, X was run using LPG, but one cylinder of LPG used to exhaust itself in 1.5 days, and, there were severe space constraints of stocking the cylinders. So, a project for a pipeline-fed switch-over to piped natural gas (PNG) was sanctioned in December 2005 by the central government and the agency tasked with the job went on to lay a 500-metre pipeline to complete the task on priority. <br/><br/>Identify X. ",
+      "answer" : "<em>Amar Javan Jyoti</em>",
+      "answerImg" : "../Media/26exp.jpg"
+    },
+    { "question" : "X started his professional career as a lawyer and his political career as a youth leader with the Indian National Congress. X was later elected  the mayor of Bombay. However, following the provincial elections of 1937 in the Bombay Presidency, he was removed from his post and subsequently expelled from the Congress party . <br/><br/> However, why X is still remembered is because he lent his name to Bombay’s central business district, as well as the road that cuts through it. <br/><br/> Identify X. ",
+      "answer" : "Khursheed Nariman, of <em>Nariman Point</em> Fame",
+      "answerImg" : "../Media/27exp.jpg"
+    },
+    { "question" : "<img src = ../Media/28.png style = 'height : 70%; width : 70%;'><br/>Whose untold story?",
+      "answer" : "Queen",
+      "answerImg" : "../Media/28exp.jpg"
+    },
+    { "question" : "<img src = ../Media/29.jpg><br/>Installed in 2005 and located once every 25 feet, these serve a very crucial purpose at one of the most famous spots in the world. What and where?",
+      "answer" : "Suicide prevention hotlines, Golden Gate bridge",
+      "answerImg" : "../Media/29exp.jpg"
+    },
+    { "question" : "<img src = ../Media/30.jpg><br/>X (pictured) is an iconic, American skyscraper that forms the centrepiece of midtown Manhattan, New York City. The building is the headquarters of the worldwide conglomerate Y, and lends its name to the famous sitcom Z - that ran for seven years (2006 - 2013) and chornicled the life of the cast and crew of a fictional sketch comedy series. <br/><br/>Identify X, Y and Z.",
+      "answer" : "30 Rockefeller Plaza, NBC, 30 Rock",
+      "answerImg" : "../Media/30exp.jpg"
+    },
+    { "question" : "X was a state of India between 1948 and 1956 - created by combining eight princely states: Patiala, Jind, Nabha, Kapurthala, Faridkot, Kalsia, Malerkotla and Nalagarh. Although the state was inaugurated on July 15, 1948 - it formally became a state of India only in 1950. The state gradually went on to include Shimla, Kasauli, Kandaghat, Dharampur and Chail and had its capital at Patiala. <br/>Interestingly, the X Road Transport Corporation - setup in 1956 via an act of the state legislature - is today the largest bus service operator in Punjab and still operates with the exact same name - despite X having ceased to exist as a state since 1956. What is X? ",
+      "answer" : "PEPSU (Patiala and East Punjab States' Union)",
+      "answerImg" : "../Media/31exp.jpg"
+    },
+    { "question" : "<img src = ../Media/32.png> <br/> Whose name has been blanked out?",
+      "answer" : "John McEnroe",
+      "answerImg" : "../Media/32exp.jpg"
+    },
+    { "question" : "About X's final address to the Punjab high court, G.D. Khosla, one of the judges in X's trial, wrote : <blockquote>'I have, however, no doubt that had the audience of the day been constituted into a jury and entrusted with the task of deciding his appeal, they would have brought a verdict of not-guilty by an overwhelming majority.</blockquote>Although pleas for commutation of X's death sentence were made by a number of people, including Jawaharlal Nehru, X was sentenced to death and eventually executed in November, 1949. <br/><br/>Identify X. ",
+      "answer" : "Nathuram Godse"
+    },
+    { "question" : "<img src = ../Media/34.png> <br/>The airline <strong>MSA</strong>(pictured) came into being in 1966 under joint ownership of two separate entities. Only six years later however, the airline ceased operations and both the original stakeholding parties decided to create their own independent airlines. What came into being this way are today two of the world's foremost and profitable carriers. <br/><br/>Expand MSA.",
+      "answer" : "Malaysia-Singapore Airlines<br/><em>A joint venture of the Malaysian and Singaporean governments</em>"
+    },
+    { "question" : "Speaking about their most-recently unveiled installation (in October, 2013), the director of the Qatar Museums Authority said, <blockquote>'Yes, we expect a lot of people to want to take photos with it, and of it. It’s an impressive piece. It’s a huge sculpture, and it’s done in the same style as Greek Mythological statues, but this glorifies human defects instead. It shows that although we sometimes treat footballers like gods, they’re not - they’re just human beings.</blockquote>What does this 17 foot high sculpture by Algerian artist Adel Abdessemed depict?",
+      "answer" : "Zinedine Zidane headbutting Marco Materazzi",
+      "answerImg" : "../Media/35exp.jpg"
+    },
+    { "question" : "There are over 200 Xs on Y, the earliest recorded ones dating back to 1922. Most of these Xs today have nicknames and are used as landmarks. The most famous of these Xs (nicknamed 'Green Boots') is from 1996, next to a cave along the path to the final destination - and serves as an important milestone to those attempting to complete the journey. <br/><br/>As per local law, the Xs have to be retrieved. However, if this is not possible, alternate arrangements are made using stones. <br/><br/>What are the Xs mentioned? What is Y?",
+      "answer" : "X : Dead bodies on Y : Mt. Everest",
+      "answerImg" : "../Media/36exp.jpg"
+    },
+    { "question" : "The practice of cultivation done specifically to sell Xs dates back to 1901 - when the first such farm sprung up in New Jersey. In the 60s and 70s, the market for Xs burgeoned, and with the advent of the 21st century, 98% of all natural Xs sold worldwide were cultivated on farms. <br/><br/>For harvesting, large farms have begun to use helicopters to transport the harvest - thereby reducing travel time. Time, in the case of X, is of the essence, as it is probably the only '<em>crop</em>' in the world that is useless after a certain date. <br/><br/>What is X?",
+      "answer" : "Christmas Trees",
+      "answerImg" : "../Media/37exp.jpg"
+    },
+    { "question" : "<img src = ../Media/38.jpg><br/>This is the erstwhile office of X (pictured) in Zlín, Czech Republic (then Czechoslovakia). The company he founded, and lends his name to, is today one of the world's largest mutlinational retailers - with an especially large footprint in India, where it even has an entire city (in West Bengal) named after it. <br/><br/>Who? OR What company?",
+      "answer" : "Bata shoe company, founded by Tomas Bata"
+    },
+    { "question" : "The Hijli Detention Camp is a former British prison and detention camp, located in the West Midnapore district of what is now West Bengal. Since the ordinary British jails were overflowing, Hijli was contruscted in the 1920s and used to house those arrested for participating in the non-cooperation movement. <br/><br/>During World War II, however, the entire prison complex became an allied air base, commandeered by the Tenth Air Force division of the United States Air Force. <br/><br/>Following independence, the prison was obviously dismantled, and as if symbolic of the resurgence of a newly independent India, the building became the birthplace of X. Identify X.",
+      "answer" : "Indian Institute of Technology, Kharagpur",
+      "answerImg" : "../Media/39exp.png"
+    },
+    { "question" : "Tony Greig, when describing the origin of the term X, mentioned, <blockquote>'Moin Khan, the former Pakistani wicketkeeper batsman would often urge his bowlers to bowl '<em>the other one</em>' from behind the stumps - and I picked it up from the stump mic. In one of the post-match interviews, I asked him about the entire episode and he confirmed it.'</blockquote> What is X? ",
+      "answer" : "The <em>Doosra</em>"
+    }
+  ]
+}
