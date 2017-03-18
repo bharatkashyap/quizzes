@@ -1,0 +1,115 @@
+{
+  "title" : "Senior Quiz Exun 2016",
+
+  "day" : "27/11/2016",
+
+  "rules":
+  [
+    {"rule" : "Infinite pounce, followed by bounce"},
+    {"rule" : "+10/-5 on pounce, +10/0 on direct, +10/0 on pass"},
+    {"rule" : "Question Master's discretion is paramount"},
+    {"rule" : "<b>Quizgen template</b> by Bharat Kashyap"}
+  ],
+
+  "questions":
+  [
+    { "question" : "  Every Mozilla browser includes a special 'X' feature that allows you to configure certain sections just by typing 'X:whatever' into the address bar. For example, if you type 'X:X,' you'll see a list of all the menus they offer. Some of the menus are actually cute Easter eggs, like 'X:robots,' which takes you to a page referencing things like Blade Runner, Futurama, and the eventual annihilation of all mankind.Give X",
+      "answer" : "About"
+    },
+    { "question" : "  X can be so zealous in expressing his enthusiasm that once his vocal cords required surgery after he screamed '_______,______,_______' continuously at a Japan meeting in 1991. When Y celebrated its 25th Anniversary in 2000, X popped out of the anniversary cake to surprise the audience. His wild screaming and dancing on stage at an employee's convention was caught on a widely-circulated video known as 'Dance Monkeyboy.' A few days later at a developers conference, a sweat-soaked X repeatedly chanted 'developers' at least 14 times in front of the bemused gathering. Beyond his jovial image, this second cousin of famous comedian Gilda Radner is known to be a shrewd businessman with a flair to grab opportunities when they come.X has also called Linux 'communism' and the GNU GPL 'a cancer'. He advocates Digital rights management and has said that 'DRM is the future'. Give X and Y.",
+      "answer" : "Steve Ballmer, Microsoft"
+    },
+     { "question" : "What started as an April Fool joke by Google for 2008 called Project X is now a real and genuine effort by an increasing number of people to create ideas and ways in which mankind can live sustainably in space using free and open source technology. This project is a place for all space enthusiasts to cooperate on simulations of space settlements. Rather than argue whether L5, Mars, the asteroids, the Moon or the rings of Saturn should be mankind's first space settlement, we could be asking what is common between those efforts so that that groundwork can be shared. OpenX is an offshoot of Project X started by the X community. It was intended to be a way to prevent the spamming of the Project X group, as for the most part only people who took the project seriously went to the bother of joining OpenX. Give X.",
+      "answer" : "Virgle"
+    },
+    { "question" : "In May 2013, Canadian astronaut Chris Hadfield, commander of Expedition 35 to the International Space Station, recorded a video of the song on the space station which went viral and generated a great deal of media exposure. The lyrics were somewhat altered; the ending was replaced with Major Tom getting his orders to land and doing so safely. Hadfield announced the video on his Twitter account, writing, 'With deference to the genius of X, here's Y, recorded on Station. A last glimpse of the World.' X was also thanked in the ending credits. This was the first music video ever shot in space. X responded to the video, tweeting back to Hadfield, 'Hallo Spaceboy'. The video has had over 17,000,000 views on YouTube. It is about the launch of Major Tom, a fictional astronaut; its title alludes to the film 2001: A Space Odyssey. The lyrics have also been seen to lampoon the failed British space programme.Give X and Y." ,
+      "answer" : "David Bowie, Space Oddity"
+    },
+    { "question" : "X, centered in Manhattan, has evolved into a metonym for the sphere encompassing the New York City metropolitan region's high tech industries including, the Internet, new media, telecommunications, digital media, software development, biotechnology, game design, financial technology (fintech), and other fields within information technology that are supported by the area's entrepreneurship ecosystem and venture capital investments. As of 2014, New York City hosted 300,000 employees in the tech sector.In 2015, X generated over US$7.3 billion in venture capital investment, most based in Manhattan, as well as in Brooklyn, Queens, and elsewhere in the region. High technology startup companies and employment are growing in New York City and across the metropolitan region, bolstered by the city's emergence as a global node of creativity and entrepreneurship, social tolerance, and environmental sustainability, as well as New York's position as the leading Internet hub and telecommunications center in North America, including its vicinity to several transatlantic fiber optic trunk lines, the city's intellectual capital, and its extensive outdoor wireless connectivity.",
+      "answer" : "Silicon Alley"
+    },
+    { "question" : "X is a person known for creating a very important network component technology.He is also known and criticized for his prophetic personality.Outside of his technical achievements, X is perhaps best known for his 1995 prediction that the internet would suffer a catastrophic collapse the following year; he promised to eat his words if it did not. During his keynote speech at the Sixth WWW International Conference in 1997, he took a printed copy of his column that predicted the collapse, put it in a blender with some liquid and then consumed the pulpy mass. This was after he tried to eat his words in the form of a very large cake, but the audience strongly protested.During an event where he talked about predictions at the Eighth International World Wide Web Conference in 1999, a participant asked: what is the bet?. He stated that there was no bet as he was not ready to eat another column.X is also known for his harsh criticism of open source software, and Linux in particular, predicting that the latter would be obliterated after Microsoft released Windows 2000.",
+      "answer" : "Robert Metcalfe"
+    },
+    { "question" : "The X was established in 2012, on the 20th anniversary of ISOC. Its stated purpose is to 'publicly recognize a distinguished and select group of visionaries, leaders and luminaries who have made significant contributions to the development and advancement of the global Internet'. Nominations may be made by anyone through an applications process. The Internet Hall of Fame Advisory Board is responsible for the final selection of inductees. The advisory board is made up of well known professionals in the Internet industry.",
+      "answer" : "Internet Hall of Fame"
+    },
+    { "question" : "The X project began 29 June 1994, after Microsoft announced it would no longer sell or support MS-DOS. Jim Hall then posted a manifesto proposing the development of an open-source replacement. Within a few weeks, other programmers including Pat Villani and Tim Norman joined the project. Between them, a kernel (by Villani), the COMMAND.COM command line interpreter (by Villani and Norman), and core utilities (by Hall) were created by pooling code they had written or found available. There have been several official pre-release distributions of X before the final X 1.0 distribution.GNU/DOS, an unofficial distribution of X, was discontinued after version 1.0 was released. Its is used by several companies such as Dell, Asus, Intel as a default OS is several of their products.",
+      "answer" : "FreeDOS"
+    },
+    { "question" : "X is often used in creating digital visual effects for the Hollywood blockbuster movies of today such as Titanic, the Star Wars prequels, and The Lord of the Rings. As part of the 73rd Scientific and Technical Academy Awards ceremony presentation on March 3, 2001, The Academy of Motion Picture Arts and Sciences’ Board of Governors honored Ed Catmull, Loren Carpenter, and Rob Cook, with an Academy Award of Merit (Oscar) 'for significant advancements to the field of motion picture rendering as exemplified in Pixar’s X.' This was the first Oscar awarded to a software package for its outstanding contributions to the field. Give X.",
+      "answer" : "RenderMan"
+    },
+    { "question" : "X is a programming model for processing large data sets, and the name of an implementation of the model by Google. X is typically used to do distributed computing on clusters of computers.The model is inspired by the map and reduce functions commonly used in functional programming, although their purpose in the MapReduce framework is not the same as their original forms. X libraries have been written in many programming languages. A popular free implementation is Apache Hadoop.",
+      "answer" : "MapReduce"
+    },
+    { "question" : " The Practice (Norm) of using certain group of variables in a common programming operation borrows its origin from the use of these variables as sub script in mathematical equation, especially in summation. Fortran decided to allow the same, so all variables starting these alphabets default to integer, and all others to real (floating point). For those who've missed it, this is the source of the old joke 'God is real (unless declared integer)'.What Norm in programming.",
+      "answer" : "use of i,j,k as variables"
+    },
+    { "question" : "<br><img src='../q212.jpg'>This the Progress of Precision and Confidence metrics with each version, as plotted around 2009. The baseline performance is from previous methods. The hazy gray dots are opponents. The black dot is one superlative opponent.Who is the Line? Who is the Black dot?",
+      "answer" : "Watson,Ken Jennings"
+    },
+    { "question" : " Phil Zimmermann wrote PGP(Pretty Good Privacy) in 1991. The American nuclear weapons freeze activist wanted to create an encryption program that would enable him to securely exchange information with other like-minded individuals. His system quickly became very popular among dissidents around the world. Given its use outside the United States, the US government launched an investigation into Zimmermann during the 1990s for allegedly violating the Arms Export Control Act. Prosecutors argued that making encryption software of such complexity(military grade technology) available abroad was illegal. How did Zimmerman subvert this threat?",
+      "answer" : "Published code as book, right protected as free speech"
+   
+    },
+    { "question" : "By normal measures, this works out to at most 6 or 7 non-ravenous people. Teamwork expert Hackman pegs his magic number at 5. The idea is to communicate less and not more.What’s this famous Jeff Bezos criteria for determining working-team sizes?",
+      "answer" : "Two Pizza rule: working teams no bigger than 2 pizzas can feed"
+    },
+    { "question" : "The 1948 book X by Norman Weiner was the original 'Brief History of Time' - a surprise best seller for a technical book,  with many college students carried it around to keep abreast of new science. It was called a book with a 'formidable name', 'mystifying title', 'strangely titled best seller'. It was the first known public usage of the title word.",
+      "answer" : "Cybernetics"
+      
+    },
+    { "question" : " It was originally used in the context of software - Broderbund vs Unison in 1986 was the first case in the US about this. Apple frequently used this and even sued Microsoft over the Windows OS.This led Richard Stallman to form the League for Programming Freedom. Ultimately, the Apple-Microsoft case settled out of court. Lotus and Borland also fought a case over Lotus 1-2-3 and Quattro Pro. It is common these days in the hardware industry too. What 3 word term?",
+      "answer" : "Look and Feel"
+    },
+    { "question" : "<br><img src='../q217.jpg'>The first digital wrist watch (showing numbers instead of hands  showing position) was released by the Hamilton Watch company in 1972 and cost $2100. It was inspired by something they produced as a futuristic prototype used as a prop a few year earlier.Where was the futuristic looking prototype seen?",
+      "answer" : "2001: A Space Odyssey"
+    },
+    { "question" : "Umberto Eco wrote in 1994: “The fact is that the world is divided between users of the X and users of Y. I am firmly of the opinion that the X is Catholic and that Y is Protestant. Indeed, the X is counter reformist .. It is cheerful, friendly, conciliatory, it tells the faithful how they must proceed step by step.. Everyone has a right to salvation.Y is Protestant, or even Calvinistic. It allows free interpretation of scripture, demands difficult personal decisions.. not all can reach salvation.. with the passage to Z, the Y universe has come to resemble more closely the counter reformist tolerance of the X. Give X and Y.",
+       "answer" : "X - Macintosh, Y - MS DOS"
+    },
+    { "question" : " X is the lowest-cost, nonlinear, all-purpose computer system which can be mass-produced by unskilled labour” – NASA about what?",
+      "answer" : "X - Human"
+    },
+    { "question" : "There are so many companies with sky-high valuations of $10 billion or more that the industry has come up with a whole new name to describe them.Bloomberg Business has christened these companies “__________“There are at least 8 of these right now, thus bringing back some rarity into the naming convention.What?",
+      "answer" : "Decacorns"
+    },
+    { "question" : "Ninety-Ninety Rule: Coding/Project Management : Attributed to Tom Cargill of Bell Labs, and popularized by Jon Bentley's September 1985 Bumper-Sticker Computer Science column in Communications of the ACM. What is it?",
+      "answer" : "The first 90 percent of the code accounts for the first 90 percent of the development time. The remaining 10 percent of the code accounts for the other 90 percent of the development time."
+    },
+    { "question" : "Looking for a nonsense name for his venture in 2005, the founder heard the word X repeatedly in Fellini's 8 1/2 - it mean 'oh, yes' in Italian and decided to name his venture X. Or not - in a Quora post he claimed to have wanted to pull phonetically pronounceable 4 letter domain names available with ICANN and use a Mechanical Turk survey to find the most popular name. He also claimed to give a different origin story every time he was asked. What is X?",
+      "answer" : "Etsy"
+    },
+    { "question" : "In 2008, writer Nicholson Baker got sucked into wikipedia under the handle 'wageless', editing articles on cobbler recipes, Sleepless in Seattle plots etc. He however became obsessed with another activity on wikipedia but eventually got frustrated. In a Guardian article he proposed the creation of X, to continue the work. Someone did create it, with a slightly modified name and the logo above. What?<br><img src='../q223.jpg'>",
+      "answer" : "Deletionpedia"
+    },
+    { "question" : "By the time ICANN came up with the Punycode to work with all kinds of scripts, most top level domains refused to accept the changes Punycode would help with. But this was accepted by country level domains like Laos (.la), Western Samoa(.ws) and Tokelau (.tk). Coca-Cola registered a domain name with Western Samoa and launched a campaign in Puerto Rico. What do these country level domains let Coca-Cola, for example, do?",
+      "answer" : "Use emoji’s in website URL’s"
+    },
+    { "question" : "X is a Unix utility that flags some suspicious and non-portable constructs in C language source code. But generically, X is any tool that flags suspicious usage in software written in any computer language. The term X-like behavior is sometimes applied to the process of flagging suspicious language usage. X-like tools generally perform static analysis of source code, and are also used as simple debuggers for common errors. Identify X.",
+      "answer" : "lint"
+    },
+    { "question" : "Upon fleeing their homeland Russia because “the country is incompatible with our business”, the founders of this company held an online poll on their next destination. “We hate bureaucracy, police regimes which are always interfering in the affairs of the citizens, wars, socialism, and excessive regulations. We love a stable legal system, free markets, and civil rights. Which country or city, in your opinion, will suit us best?” Among the options proposed by the readers, those most often mentioned were Canada, Singapore, Ireland, Thailand, Australia, Latvia, Estonia, Lithuania and Ukraine. However, much to everyone’s surprise, the founders obtained citizenship of the country X. One of the founders, Y, got this citizenship through donating $250,000 to the country's Sugar Industry Diversification Foundation, and secured US$300 million in cash within Swiss banks so that he could form this company. As of now, Y travels around the world. Identify X and Y.",
+      "answer" : "St Kitts and Nevis, Pavel Durov (the company is Telegram)"
+    },
+    { "question" : "X is a fictional character from Matt Furie’s comic series “Boy Club”. It became an internet meme when its popularity grew across MySpace and 4chan in 2008, and by 2015 it was one of the most popular used memes on the Internet. Beginning in 2016, X has increasingly been appropriated as a symbol of the controversial alt-right political movement.  During the 2016 United States presidential election, associations of the character with Donald Trump's campaign, white nationalism, and the alt-right were described by various news organizations. In September 2016, an article published on Hillary Clinton's campaign website described X as 'a symbol associated with white supremacy' and denounced Donald Trump's campaign for its supposed promotion of the meme. Since then, Matt Furie has publicly expressed his disappointment on the usage of X as a hate symbol, and has started various online campaigns to get a positive meaning to the meme, including the handle #SaveX. Identify X.",
+      "answer" : "Pepe the chill frog"
+    },
+    { "question" : "The first X was  in New York in 1967, as a spinoff of the Chicago Music Show. Till 1994, there was a summer edition held in Chicago, but with waning interest a rotating location for the summer edition was tried for a few years and then abandoned. only the winter edition is around and is one of the largest of its kind. What?",
+      "answer" : "CES"
+    },
+    { "question" : "Andrew Kortina and Iqram Magdon-Ismail were freshman roommates at the University of Pennsylvania. According to Kortina, the idea of X originated when his roommate (and eventual co-founder) Magdon-Ismail forgot his wallet during his trip back home. Their original prototype used text messages, but they eventually transitioned from text messages to a mobile app. <br>What is X? ",
+      "answer" : "Venmo"
+    },
+    { "question" : "In July 2016, in a paper in the ‘Physical Review X’ (X being part of the name), the Google Research team on quantum computing - in collaboration with Harvard - did something that many think could revolutionize the design of solar cells, industrial catalysts, batteries, flexible electronics, medicines and materials.This event has been regarded as one of the first successes of quantum computing. <br>What were they able to do?",
+      "answer" : "They managed to create a quantum simulation of a hydrogen molecule - using qubits (bits that can take be both 0s and 1s simultaneously) to represent chemical quantum superposition states."
+    },
+    { "question" : "When Apple Computer created a new operating system (“System 7”) for its Macs in 1991, the question came up again, a guy named Jim Reekes was the lead engineer for the Apple Sound Manager for System 7, and he and his team were creating all sorts of different startup sounds - sounds which needed names so that the operating system could find them and play them when appropriate. The team settled on the name ‘Chime’ - but that was rejected by the litigation department at Apple - since they thought Chime was something one would call music. Infuriated, Reekes’ team came up with the name Sosumi - which stuck. The name has since passed into internet folklore, with copies of the original audio clip still doing the rounds on the internet. <br>Why Sosumi?",
+      "answer" : "So sue me; As an initial result of their long drawn court battle with Apple Corp - the Beatles’ holding company - Apple Computer was not allowed to make any sort of music. The sound management team was defiant when they were asked to change their name from Chime - daring the Beatles’ to sue them; the Beatles never noticed."
+    },
+    { "question" : "Fill in the blank.<br><img src='../q232.jpg'>",
+      "answer" : "The Imitation Game, Alan Turing : Writing in the Computing machinery and intelligence journal, in 1950."
+    }
+  ]
+}
