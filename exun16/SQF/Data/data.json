@@ -9,7 +9,7 @@
     {"rule" : "+10/-5 on pounce, +10/0 on direct, +10/0 on pass"},
     {"rule" : "Question Master's discretion is paramount"},
     {"rule" : "Built using <a href = https://github.com/bharatkashyap/quizgen-final target=_blank>Quizgen</a>"}
-
+  ],
   "questions":
   [
     { "question" : "  Every Mozilla browser includes a special 'X' feature that allows you to configure certain sections just by typing 'X:whatever' into the address bar. For example, if you type 'X:X,' you'll see a list of all the menus they offer. Some of the menus are actually cute Easter eggs, like 'X:robots,' which takes you to a page referencing things like Blade Runner, Futurama, and the eventual annihilation of all mankind.Give X",
