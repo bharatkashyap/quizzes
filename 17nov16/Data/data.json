@@ -7,7 +7,8 @@
   [
     {"rule" : "Infinite pounce, followed by bounce"},
     {"rule" : "+10/-5 on pounce, +10/0 on bounce"},
-    {"rule" : "Question setter's discretion is paramount"}
+    {"rule" : "Question setter's discretion is paramount"},
+    {"rule" : "Built using <a href = https://github.com/bharatkashyap/quizgen-final>Quizgen</a>"}
   ],
 
   "questions":
