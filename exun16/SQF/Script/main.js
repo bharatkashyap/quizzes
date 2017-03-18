@@ -16,7 +16,7 @@ xhr.onreadystatechange = function()
     }
 }
 
-xhr.open("GET", "data.json", true);
+xhr.open("GET", "../Data/data.json", true);
 xhr.send();
 
 function showMeta(title, day, rules)
