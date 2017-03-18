@@ -8,7 +8,7 @@
     {"rule" : "Infinite pounce, followed by bounce"},
     {"rule" : "+10/-5 on pounce, +10/0 on direct, +10/0 on pass"},
     {"rule" : "Question Master's discretion is paramount"},
-    {"rule" : "Built using <a href = https://github.com/bharatkashyap/quizgen-final target=_blank>Quizgen template</a> by Bharat Kashyap."}
+    {"rule" : "Built using <a href = https://github.com/bharatkashyap/quizgen-final target=_blank>Quizgen</a>"}
   ],
 
   "questions":
