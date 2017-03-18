@@ -1,1 +1,149 @@
 
+{
+  "title" : "Junior Quiz Exun 2016",
+
+  "day" : "27/11/2016",
+
+  "rules":
+  [
+    {"rule" : "Infinite pounce, followed by bounce"},
+    {"rule" : "+10/-5 on pounce, +10/0 on direct, +5/0 on pass"},
+    {"rule" : "(*) marked questions will be scored differently"},
+    {"rule" : "Question Master's discretion is paramount"},
+    {"rule" : "Built using <a href = https://github.com/bharatkashyap/quizgen-final> Quizgen </a>"}
+  ],
+
+  "questions":
+  [
+    { "question" : "  On June 8, 2016, Opera released a new version of its browser and became the first of it’s kind to provide such <i>“built-in features”</i>. This made Opera very popular and many Chrome/Safari users shifted to Opera. Identify the <i>“features”</i>. [No part points]",
+      "answer" : "First browser to provide built in Ad-Blocker and Free Unlimited VPN.</em>"
+    },
+    { "question" : " X is a design language developed in 2014   by Google. X makes more liberal use of grid-based layouts, responsive animations and transitions, padding, and depth effects such as lighting and shadows.What is X? <br>Example: <br><img src='../Media/q2.jpg'>",
+      "answer" : "Material Design"
+    },
+     { "question" : "Identify. <br><img src='../Media/q3.jpg'>",
+      "answer" : "UC News"
+    },
+    { "question" : "<br><img src='../Media/q4.jpg'>(*) A. Name of the game?<br> B.First game in the series? <br>C.Parent company? <br>D.Game Engine?" ,
+      "answer" : "A: Red Dead Redemption 2 <br> B: Red Dead Revolver <br> C: Take-Two Interactive<br> D: RAGE"
+    },
+    { "question" : "The X is a big puck that's sort of like a modern twist on a paint palette. When the Dial is placed on the Y's screen, a radial menu pops up all around it. Different color or brush options might pop up, for example, when a painting app is on screen — presumably, other apps can create custom menus as well. It can also be used to navigate and pan around an image. Identify X and Y.",
+      "answer" : "X -Surface Dial, Y -Surface Studio"
+    },
+    { "question" : "abc.xyz is the website for google’s parent company, Alphabet. The website opens with a message by Larry Page, who is the CEO of Alphabet. The website has a minimalist background, and is not very eye catching to be honest. But if someone reads between the lines, they may find an easter egg. Where does that easter egg lead and whats is it's significance?",
+      "answer" : "",
+      "answerImg" : "../Media/q6.jpg"
+    },
+    { "question" : "Identify the famous company behind this slogan.<br><img src='../Media/q7.jpg'>",
+      "answer" : "Sony"
+    },
+    { "question" : "X, headquartered in San Mateo, California, is the largest American provider in the ______ sector. It was founded in 2006 by brothers Peter and Lyndon Rive, with the help of their cousin Y. Since then, it has grown rapidly, along with the overall ______ sector. X was recently acquired for $2.5 Billion in an all stock deal by Y’s company Z.<br>Identify X, Y and Z.(half points for two, full points for three)",
+      "answer" : "X - SolarCity, Y - Elon Musk, Z - Tesla Motors"
+    },
+    { "question" : "Identify the company behind this ad campaign.<br><img src='../Media/q9.jpg'>",
+      "answer" : "Uber"
+    },
+    { "question" : "Identify.<br><img src='../Media/q10.jpg'>",
+      "answer" : "Richard Stallman"
+    },
+    { "question" : " Connect. (think tech)<br><img src='../Media/q11.jpg'><br><img src='../Media/q112.jpg'>",
+      "answer" : "Apple Music’s New Ad"
+    },
+    { "question" : "This ad is placed on RK puram sec. 12 bus stop. Name the company behind this ad campaign.<br><img src='../Media/q12.jpg'> ",
+      "answer" : "Google Maps"
+    },
+    { "question" : "Identify the person behind this tweet and explain the funda.<br><img src='../Media/q13.jpg'>",
+      "answer" : "Jack Dorsey"
+   
+    },
+    { "question" : "<br><img src='../Media/q14.jpg'>",
+      "answer" : "Shakespeare Programming Language (SPL)"
+    },
+    { "question" : "X Co-Founded Y in 2010 and serves as its the Chief Executive Officer. X had been with Microsoft's emerging markets group. He is an Alumnus of Delhi Public School, R.K. Puram, Engineering Graduate of University of Pennsylvania and an MBA from Wharton University. However we know X for something very different.",
+      "answer" : "X - Kunal Bahl, Y - Jasper Infotech/ Snapdeal"
+      
+    },
+    { "question" : "The X is a blanket term with ironic connotations thought to have been coined in an article in Wired magazine in 1997 and used by international, including Chinese, media to refer to legislation and projects initiated by the Chinese government (which is controlled by the Communist Party of China, CPC) that attempt to regulate the Internet in Mainland China. It is the main instrument to achieve Internet censorship in China. Identify X",
+      "answer" : "The Great Firewall Of China"
+    },
+    { "question" : "X has developed a censorship tool that could persuade China to allow the social media network to re-enter the world's second largest economy after a seven-year ban. X developed the software, which suppresses posts from appearing in people's news feeds in specific geographies, with the support of its CEO, Y. In March, Y had met China's propaganda chief Liu Yunshan who said that he hoped X could strengthen exchanges and improve mutual understanding with China's internet companies.",
+      "answer" : "X - Facebook,  Y-  Mark Zuckerberg"
+    },
+    { "question" : "Identify.<br><img src='../Media/q18.jpg'>",
+      "answer" : "USB Killer"
+    },
+    { "question" : "The X company has developed a ‘Selfie Bottle” which comes with an integrated camera that automatically clicks the selfie of a person drinking from it. The bottle clicks the Selfie whenever it detects a 70 degree tilt.",
+      "answer" : "The Coca Cola Company"
+    },
+    { "question" : "Identify.<br><img src='../Media/q20.jpg'>",
+      "answer" : "John McAfee"
+    },
+    { "question" : "Identify.<img src = ../Media/q21.jpg>",
+      "answer" : "Nintendo Switch"
+    },
+    { "question" : "X is a marketing term for the _____ after the Thanksgiving holiday in the United States. The term was created by marketing companies to persuade people to shop online. The term was coined in a Shop.org press release in 2005.The deals on X are online-only. At one time, the deals were offered by smaller retailers that could not compete with the big retailers, but has since become an international marketing term used by online retailers across the world.Identify X.",
+      "answer" : "Cyber Monday"
+    },
+    { "question" : "Identify.<br><img src='../Media/q23.jpg'>",
+      "answer" : "Vahana, the flying taxi by AirBus"
+    },
+    { "question" : "(*) X are an example of a distributed computing system with high byzantine fault tolerance. The first  X was conceptualised by Y in 2008 and implemented the following year as a core component of the digital currency Z , where it serves as the public ledger for all transactions. Through the use of a peer-to-peer network and a distributed timestamping server a X database is managed autonomously. The invention of the X for Z made it the first digital currency to solve the double spending problem.",
+      "answer" : "X- Blockchain Y- Satoshi Nakamoto/ Craig Wright Z- Bitcoin"
+    },
+    { "question" : "The Nintendo Classic Mini is a game console which launched on November 10, 2016 in Australia and Japan, and November 11, 2016 in North America and Europe. Priced at US $60, it is based upon software emulation, and includes a static library of 30 built-in games - including legendary games like Castlevania, Donkey Kong, Super Mario Bros., Pac-Man, and The Legend of Zelda. Which iconic gaming console does the Classic Mini emulate? ",
+      "answer" : "Nintendo Entertainment System"
+    },
+    { "question" : "Put Funda.<br><img src='../Media/q26.jpg'>",
+      "answer" : "Founder on shutdown of Vine"
+    },
+    { "question" : "(*)In a circular released by Department of Telecom (DoT), all mobile phones (including smartphones and feature phones) sold in the India MUST have the  facility of a X, Y and Z from January 1, 2017,  July 1 ,2017 and January 1, 2018, respectively.",
+      "answer" : "X- Panic Button Y- GPS Z- Regional Language supports"
+    },
+    { "question" : "X was founded in December 1984. Despite founding X, the founder, along with his earliest associates, continued to work at Stanford on X's first product. It consisted of exact replicas of Stanford's 'Blue Box' router and a stolen copy of the University's multiple-protocol router software. The software was originally written some years earlier at Stanford medical school by a research engineer.As a result, the founders were forced to resign from Stanford and the university contemplated filing criminal complaints against X and its founders for the theft of its software, hardware designs and other intellectual properties. However, in 1987, Stanford licensed the router software and two computer boards to X. Identify X.",
+      "answer" : "Cisco"
+    },
+    { "question" : "Put Funda.<br><img src='../Media/q29.jpg'> ",
+      "answer" : "A full page article by Slack in NYT to mock MS at their launch of TEAM."
+    },
+    { "question" : "X was an American inventor, regarded as one of the seminal figures in the development of data processing. X initially did business under his own name, specializing in punched card data processing equipment. He built tabulators and other machines under contract for the Census Office, which used them for the 1890 census. In 1896, X founded the Tabulating Machine Company. In 1911 four corporations, including X's, were consolidated to form the Computing-Tabulating-Recording Company (CTR).Identify X. How do we know CTR as today?",
+      "answer" : "X - Hermann Hollerith, IBM"
+    },
+    { "question" : "Trump had announced plans to build a wall along the US-Mexico border to keep illegal immigrants out. Responding to Donald Trump's victory in the US presidential elections, X sent out a company-wide note highlighting that the  Y was founded by an immigrant and that diversity was 'one of the most valuable assets' of Y.",
+      "answer" : " X- Devin Wenig Y- eBay"
+    },
+    { "question" : "Identify.<br><img src='../Media/q32.jpg'>",
+      "answer" : "SNAPBOT, vending machines by snapchat for selling spectacles"
+    },
+    { "question" : "This man is credited with being the father of nanotechnology. However most of us think of him as a teacher par-excellence, a Nobel laureate, and a funny guy. Who are we referring to? <br><img src='../Media/q33.jpg'> ",
+      "answer" : "Richard Feynman"
+    },
+    { "question" : "Connect: The Seattle Seahawks, Portland Trail Blazers, Seattle Sounders, SpaceShipOne, The Underthinkers.",
+      "answer" : "Paul Allen"
+    },
+    { "question" : "Identify this excerpt.<br><img src='../Media/q35.jpg'>",
+      "answer" : "Tip-to-tip efficiency algorithm from Silicon Valley"
+    },
+    { "question" : "Here is an excerpt from an article from Popular Mechanics taken from the University of Waterloo’s website: It turns out that there's a mathematical model for finding the shortest route through a bunch of PokeStops, and it comes in the form of the non-Pokemon-related X. Originally, the problem was about X between multiple cities, and algorithms used to solve it would find the shortest path that would hit all the necessary points. Since then, those same algorithms have been applied to all sorts of applications like shipping, 3D printing, and even astronomy.",
+      "answer" : "Travelling Salesman Problem"
+    },
+    { "question" : "Identify.<br><img src='../Media/q37.jpg'>",
+      "answer" : "The orignal patent diagram for Mouse by Douglas Engelbart"
+    },
+    { "question" : "Identify.<br><img src='../Media/q38.jpg'>",
+      "answer" : "Google’s first PopUp Store"
+    },
+    { "question" : "Y was pretty clear in his head that he could get a job any day, but what Y wanted to do was business. So when Harinder, his batch mate, asked Y how will they start a company when they were still in college, the reply was that for starting a company, one only needs a business card. E-37, DCE, K-Gate, Delhi-6, Phone no. 2453789 Y proclaimed as Y told Harinder the address. Y christened the company as 'XS Corp.' Here 'E' was his hostel block, 37 the room number, K-Gate was Kashmere Gate and the phone number was that of a nearby shop keeper. The 'S' in XS Corp was Supriya, the girl who rejected Y, and XS meant he was rejecting her from his life.Y has gained a lot of media attention recently.Identify Y.<br>Note: X is not a variable.",
+       "answer" : "",
+      "answerImg" : "../Media/a39.jpg"
+    },
+    { "question" : "Identify.<br><img src='../Media/q40.jpg'>",
+      "answer" : "Lakshmi, India’s first banking robot"
+    },
+    { "question" : "What is going on? <br><img src='../Media/q41.jpg'>",
+      "answer" : "Apple buying Beats by Dr. Dre"  
+    },
+    { "question" : "Identify.<br><img src='../Media/q42.jpg'>",
+      "answer" : "World's first LiFi Dongle"
+    }
+  ]
+}
