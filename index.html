@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <meta name="viewport" content="width=device-width">
+    <style type="text/css">
+      .card:hover {
+        cursor:pointer;
+      }
+    </style>
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -37,48 +42,23 @@
 
 <p><strong>Intra-school</strong>  </p>
 
-<ol id="intra">
-<li v-for="card in cards" v-bind:key="card.id"><div class="card"><img class="card-img-top" v-bind:src="card.img" alt="Card image cap" /><div class="card-body" v-on:click="follow(card.link)"><h5 class="card-title">{{ card.title }}</h5><div class="card-subtitle text-muted">{{card.year}}</div><p class="card-text">{{ card.format }}</p></div></div></li>
-
-<li><p>General quiz (2014) <a href="https://drive.google.com/open?id=0B598asJ2lBwNRTU2V21FVDJBcWs" target=_blank>Prelims, PDF</a>  </p></li>
-<li><p>Exun e-Lite Junior (2015) <a href="https://drive.google.com/open?id=0B598asJ2lBwNdWwwZDU4eUdXTlU" target=_blank>Prelims, PDF</a>  </p></li>
-<li><p>Exun e-Lite Junior (2015) <a href="https://bharatkashyap.github.io/quizzes/elite15/JQF/index.html" target=_blank>Finals, Interactive</a> </p></li>
-<li><p>Exun e-Lite Senior (2015) <a href="https://drive.google.com/open?id=0B598asJ2lBwNTkstMGxmb0RpU0k" target=_blank>Prelims, PDF</a>  </p></li>
-<li><p>Exun e-Lite Senior (2015) <a href="https://bharatkashyap.github.io/quizzes/elite15/SQF/index.html" target=_blank>Finals, Interactive</a>  </p></li>
-  
-</ol>
+<ul id="intra">
+<li v-for="card in intra-cards" v-bind:key="card.id"><div class="card"><img class="card-img-top" v-bind:src="card.img" alt="Card image cap" /><div class="card-body" v-on:click="follow(card.link)"><h5 class="card-title">{{ card.title }}</h5><div class="card-subtitle text-muted">{{card.year}}</div><p class="card-text">{{ card.format }}</p></div></div></li>  
+</ul>
 
 <p><strong>Inter-school</strong>  </p>
 
-<ol>
-<li><p>Exun Junior (2015) <a href="https://drive.google.com/open?id=0B598asJ2lBwNbzhtYUh6ZUwzbTA" target=_blank>Prelims, PDF</a>  </p></li>
-<li><p>Exun Junior (2015) <a href="https://bharatkashyap.github.io/quizzes/exun15/JQF/index.html" target=_blank>Finals, Interactive</a></p></li>
-<li><p>Exun Senior (2015) <a href="https://drive.google.com/open?id=0B598asJ2lBwNLThKaVFKYnlFbkk" target=_blank>Prelims, PDF</a>  </p></li>
-<li><p>Exun Senior (2015) <a href="https://drive.google.com/open?id=0B598asJ2lBwNLThKaVFKYnlFbkk" target=_blank>Prelims, PDF</a>  </p></li>
-<li><p>Exun Senior (2016) <a href="https://drive.google.com/open?id=0B598asJ2lBwNam5HeXJLR1ZPdkk" target=_blank>Prelims, PDF</a>  </p></li>
-<li><p>Exun Junior (2016) <a href="https://bharatkashyap.github.io/quizzes/exun16/JQF/View/" target=_blank>Grid, interactive</a>  </p></li>
-<li><p>Exun Senior (2016) <a href="https://bharatkashyap.github.io/quizzes/exun16/SQF/View/" target=_blank>Grid, interactive</a>  </p></li>
-<li><p>Infinitus Reus (2017)<a href="https://quizgen-final.firebaseapp.com/?sheet=https://docs.google.com/spreadsheets/d/1W4A4rrA812qtynqrU3Y4iYQrFrizoAe8WezAw0wviEg/edit#gid=0" target=_blank>Finals, Grid</a>  </p></li>  
-<li><p>Exun Senior (2017)<a href="https://quizgen-final.firebaseapp.com/?sheet=https://docs.google.com/spreadsheets/d/1kUrnhTgvS_9dpztCd8fgvRCGksRXzsd9APT_PJIKlhY/edit#gid=0" target=_blank>Finals, Grid</a>  </p></li>      
-</ol>
+<ul id="inter-school">
+  <li v-for="card in inter-cards" v-bind:key="card.id"><div class="card"><img class="card-img-top" v-bind:src="card.img" alt="Card image cap" /><div class="card-body" v-on:click="follow(card.link)"><h5 class="card-title">{{ card.title }}</h5><div class="card-subtitle text-muted">{{card.year}}</div><p class="card-text">{{ card.format }}</p></div></div></li>      
+</ul>
         
-<p><strong>TQC Thursdays</strong></p>
-
-<ol>
-<li><p>Sem 1, November 2016  <a href="https://bharatkashyap.github.io/quizzes/17nov16/View" target="_blank">Grid, Interactive </a>  </p></li>
-</ol>
       
-<p><strong>Inter-college</strong>  </p>
-
-<ol>
-<li><p>Eclectiza (2017) Written India <a href="https://www.facebook.com/eclectiza/videos/1648807902094169/" target=_blank>Live Stream, Facebook</a> ; <a href="https://drive.google.com/file/d/0B598asJ2lBwNSjR6OHdGaE80Tjg/view?usp=sharing" target="_blank">Answers, PDF</a></p></li>
-</ol>
+<p><strong>College</strong>  </p>
+<ul id="college">
+<li v-for="card in college-cards" v-bind:key="card.id"><div class="card"><img class="card-img-top" v-bind:src="card.img" alt="Card image cap" /><div class="card-body" v-on:click="follow(card.link)"><h5 class="card-title">{{ card.title }}</h5><div class="card-subtitle text-muted">{{card.year}}</div><p class="card-text">{{ card.format }}</p></div></div></li>  
+</ul>
    
-<p><strong>DQC Sessions</strong></p>
 
-<ol>
-<li><p>India and the World (Written), St. Stephen's college, 25 March 2018  <a href="https://bit.ly/dqc318india" target="_blank">Grid, Interactive </a>  </p></li>
-</ol>
               
 
 <h2>
@@ -111,11 +91,49 @@
     <script src="javascripts/scale.fix.js"></script>
     <script type="text/javascript">
       var cards = new Vue({
-      el: '#intra',
+      el: '.wrapper',
       data: {
-        cards: [
-          { id: 0, img:"https://i.imgur.com/CI0cb5A.png", title: "Economics/Business Quiz", year: "2013", link:"https://drive.google.com/open?id=0B598asJ2lBwNRTRrN1B0UmY4bWM", format: "Prelims PDF" }
-        ]
+        intra-cards: [
+          { id: 0, img:"https://i.imgur.com/CI0cb5A.png", title: "Economics/Business Quiz", year: "2013", link:"https://drive.google.com/open?id=0B598asJ2lBwNRTRrN1B0UmY4bWM", format: "Prelims PDF" },
+
+          { id: 1, img:"https://i.imgur.com/CI0cb5A.png", title: "Quizzing Club Prelims", year: "2014", link:"https://drive.google.com/file/d/0B598asJ2lBwNRTU2V21FVDJBcWs/view", format: "Prelims PDF" },
+
+          { id: 2, img:"https://i.imgur.com/zfjUdaB.png", title: "e-Lite Junior Quiz Prelims", year: "2015", link:"https://drive.google.com/file/d/0B598asJ2lBwNdWwwZDU4eUdXTlU/view", format: "Prelims PDF" },
+
+          { id: 3, img:"https://i.imgur.com/mUVKS3r.png", title: "e-Lite Junior Quiz Final", year: "2015", link:"https://bharatkashyap.github.io/quizzes/elite15/JQF/quiz.html", format: "Grid" },
+
+          { id: 4, img:"https://i.imgur.com/j79DSZk.png", title: "e-Lite Senior Quiz Prelims", year: "2015", link:"https://drive.google.com/file/d/0B598asJ2lBwNTkstMGxmb0RpU0k/view", format: "Prelims PDF" },
+
+          { id: 5, img:"https://i.imgur.com/jGg7uvA.png", title: "e-Lite Senior Quiz Final", year: "2015", link:"https://bharatkashyap.github.io/quizzes/elite15/SQF/quiz.html", format: "Grid" }
+          ],
+
+        inter-cards: [
+
+          { id: 0, img:"https://i.imgur.com/h1EUTn4.png", title: "Exun 2015 Junior Quiz Prelims", year: "2015", link:"https://drive.google.com/file/d/0B598asJ2lBwNbzhtYUh6ZUwzbTA/view", format: "Prelims PDF" },
+          
+          { id: 1, img:"https://i.imgur.com/sLitsq0.png", title: "Exun 2015 Junior Quiz Final", year: "2015", link:"https://bharatkashyap.github.io/quizzes/exun15/JQF/quiz.html", format: "Grid"},
+
+          { id: 2, img:"https://i.imgur.com/BO2GWWL.png", title: "Exun 2015 Senior Quiz Prelims", year: "2015", link:"https://drive.google.com/file/d/0B598asJ2lBwNLThKaVFKYnlFbkk/view", format: "Prelims PDF" },
+         
+          { id: 3, img:"https://i.imgur.com/IKy9e3E.png", title: "Exun 2016 Junior Quiz Final", year: "2016", link:"https://bharatkashyap.github.io/quizzes/exun16/JQF/View/", format: "Quizgen Grid" },
+
+           { id: 4, img:"https://i.imgur.com/d2gCcuY.png", title: "Exun 2016 Senior Quiz Prelims", year: "2016", link:"https://drive.google.com/file/d/0B598asJ2lBwNam5HeXJLR1ZPdkk/view", format: "Prelims PDF" },
+
+          { id: 5, img:"https://i.imgur.com/nrnVAqF.png", title: "Exun 2016 Senior Quiz Final", year: "2016", link:"https://bharatkashyap.github.io/quizzes/exun16/SQF/View/", format: "Quizgen Grid" },
+
+          { id: 6, img:"https://i.imgur.com/Blibs9t.png", title: "Final at Infinitus Reus", year: "2017", link:"https://quizgen-final.firebaseapp.com/?sheet=https://docs.google.com/spreadsheets/d/1W4A4rrA812qtynqrU3Y4iYQrFrizoAe8WezAw0wviEg/edit#gid=0", format: "Quizgen Grid" },
+
+          { id: 7, img:"https://i.imgur.com/8kwyxiw.png", title: "Exun 2017 Senior Quiz Final", year: "2017", link:"https://quizgen-final.firebaseapp.com/?sheet=https://docs.google.com/spreadsheets/d/1kUrnhTgvS_9dpztCd8fgvRCGksRXzsd9APT_PJIKlhY/edit#gid=0", format: "Quizgen Grid"}
+          ],
+
+          college-cards: [
+
+          { id: 0, img:"https://i.imgur.com/QmC6Q5Q.png", title: "General quiz for TQC meet", year: "2016", link:"https://bharatkashyap.github.io/quizzes/17nov16/View/", format: "Quizgen Grid" },
+
+          { id: 1, img:"https://i.imgur.com/PGbLMX3.png", title: "India quiz at Eclectiza", year: "2017", link:"https://drive.google.com/file/d/0B598asJ2lBwNSjR6OHdGaE80Tjg/view", format: "PDF" },
+
+          { id: 2, img:"https://i.imgur.com/ZWITt5X.png", title: "India and the world Quiz", year: "2018", link:"https://bit.ly/dqc318india", format: "Quizgen Grid" }
+          ]
         },
       methods: {
         follow: function(url) {
