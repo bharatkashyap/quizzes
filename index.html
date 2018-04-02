@@ -38,7 +38,7 @@
 <p><strong>Intra-school</strong>  </p>
 
 <ol id="intra">
-<li v-for="card in cards" v-bind:key="card.id"><div class="card"><img class="card-img-top" v-bind:src="card.img" alt="Card image cap" /><div class="card-body" v-on:click="follow(card.link)"><h5 class="card-title">{{ card.title }}</h5><p class="card-text">{{ card.format }}</p></div></div></li>
+<li v-for="card in cards" v-bind:key="card.id"><div class="card"><img class="card-img-top" v-bind:src="card.img" alt="Card image cap" /><div class="card-body" v-on:click="follow(card.link)"><h5 class="card-title">{{ card.title }}</h5><div class="card-subtitle text-muted">{{card.year}}</div><p class="card-text">{{ card.format }}</p></div></div></li>
 
 <li><p>General quiz (2014) <a href="https://drive.google.com/open?id=0B598asJ2lBwNRTU2V21FVDJBcWs" target=_blank>Prelims, PDF</a>  </p></li>
 <li><p>Exun e-Lite Junior (2015) <a href="https://drive.google.com/open?id=0B598asJ2lBwNdWwwZDU4eUdXTlU" target=_blank>Prelims, PDF</a>  </p></li>
@@ -114,7 +114,7 @@
       el: '#intra',
       data: {
         cards: [
-          { id: 0, title: "Economics/Business Quiz 2013", link:"https://drive.google.com/open?id=0B598asJ2lBwNRTRrN1B0UmY4bWM", format: "Prelims PDF" }
+          { id: 0, title: "Economics/Business Quiz", year: "2013", link:"https://drive.google.com/open?id=0B598asJ2lBwNRTRrN1B0UmY4bWM", format: "Prelims PDF" }
         ]
         },
       methods: {
