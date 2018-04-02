@@ -7,6 +7,8 @@
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <meta name="viewport" content="width=device-width">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -35,8 +37,9 @@
 
 <p><strong>Intra-school</strong>  </p>
 
-<ol>
-<li><p>Economics/Business quiz (2013) <a href="https://drive.google.com/open?id=0B598asJ2lBwNRTRrN1B0UmY4bWM" target=_blank>Prelims, PDF</a>  </p></li>
+<ol id="intra">
+<li v-for="card in cards" v-bind:key="card.id"><div class="card"><img class="card-img-top" v-bind:src="card.img" alt="Card image cap" /><div class="card-body" v-on:click="follow(card.link)"><h5 class="card-title">{{ card.title }}</h5><p class="card-text">{{ card.format }}</p></div></div></li>
+
 <li><p>General quiz (2014) <a href="https://drive.google.com/open?id=0B598asJ2lBwNRTU2V21FVDJBcWs" target=_blank>Prelims, PDF</a>  </p></li>
 <li><p>Exun e-Lite Junior (2015) <a href="https://drive.google.com/open?id=0B598asJ2lBwNdWwwZDU4eUdXTlU" target=_blank>Prelims, PDF</a>  </p></li>
 <li><p>Exun e-Lite Junior (2015) <a href="https://bharatkashyap.github.io/quizzes/elite15/JQF/index.html" target=_blank>Finals, Interactive</a> </p></li>
@@ -106,6 +109,21 @@
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
+    <script type="text/javascript">
+      var cards = new Vue({
+      el: '#intra',
+      data: {
+        cards: [
+          { id: 0, title: "Economics/Business Quiz 2013", link:"https://drive.google.com/open?id=0B598asJ2lBwNRTRrN1B0UmY4bWM" format: "Prelims PDF" }
+        ]
+        },
+      methods: {
+        follow: function(url) {
+          window.open(url);
+          }
+        }
+      })
+    </script>
     
   </body>
 </html>
