@@ -13,6 +13,11 @@
     <style type="text/css">
       .card:hover {
         cursor:pointer;
+
+      ul li {
+        list-style-type: none;
+        margin: 1rem 0;
+      }
       }
     </style>
     <!--[if lt IE 9]>
@@ -40,22 +45,23 @@
 
 <p><em>Some heavy multimedia files used in the final rounds have failed to upload</em></p>
 
-<p><strong>Intra-school</strong>  </p>
-
-<ul id="intra">
-<li v-for="card in intracards" v-bind:key="card.id"><div class="card"><img class="card-img-top" v-bind:src="card.img" alt="Card image cap" /><div class="card-body" v-on:click="follow(card.link)"><h5 class="card-title">{{ card.title }}</h5><div class="card-subtitle text-muted">{{card.year}}</div><p class="card-text">{{ card.format }}</p></div></div></li>  
+      
+<h2><strong>College</strong>  </h2>
+<ul id="college">
+<li v-for="card in collegecards" v-bind:key="card.id"><div class="card"><img class="card-img-top" v-bind:src="card.img" alt="Card image cap" /><div class="card-body" v-on:click="follow(card.link)"><h5 class="card-title">{{ card.title }}</h5><div class="card-subtitle text-muted">{{card.year}}</div><p class="card-text">{{ card.format }}</p></div></div></li>  
 </ul>
 
-<p><strong>Inter-school</strong>  </p>
+
+<h2><strong>Inter-school</strong>  </h2>
 
 <ul id="inter-school">
   <li v-for="card in intercards" v-bind:key="card.id"><div class="card"><img class="card-img-top" v-bind:src="card.img" alt="Card image cap" /><div class="card-body" v-on:click="follow(card.link)"><h5 class="card-title">{{ card.title }}</h5><div class="card-subtitle text-muted">{{card.year}}</div><p class="card-text">{{ card.format }}</p></div></div></li>      
 </ul>
         
-      
-<p><strong>College</strong>  </p>
-<ul id="college">
-<li v-for="card in collegecards" v-bind:key="card.id"><div class="card"><img class="card-img-top" v-bind:src="card.img" alt="Card image cap" /><div class="card-body" v-on:click="follow(card.link)"><h5 class="card-title">{{ card.title }}</h5><div class="card-subtitle text-muted">{{card.year}}</div><p class="card-text">{{ card.format }}</p></div></div></li>  
+<h2><strong>Intra-school</strong>  </h2>
+
+<ul id="intra">
+<li v-for="card in intracards" v-bind:key="card.id"><div class="card"><img class="card-img-top" v-bind:src="card.img" alt="Card image cap" /><div class="card-body" v-on:click="follow(card.link)"><h5 class="card-title">{{ card.title }}</h5><div class="card-subtitle text-muted">{{card.year}}</div><p class="card-text">{{ card.format }}</p></div></div></li>  
 </ul>
    
 
@@ -96,7 +102,7 @@
         intracards: [
           { id: 0, img:"https://i.imgur.com/CI0cb5A.png", title: "Economics/Business Quiz", year: "2013", link:"https://drive.google.com/open?id=0B598asJ2lBwNRTRrN1B0UmY4bWM", format: "Prelims PDF" },
 
-          { id: 1, img:"https://i.imgur.com/CI0cb5A.png", title: "Quizzing Club Prelims", year: "2014", link:"https://drive.google.com/file/d/0B598asJ2lBwNRTU2V21FVDJBcWs/view", format: "Prelims PDF" },
+          { id: 1, img:"https://i.imgur.com/0dxIsxl.png", title: "Quizzing Club Prelims", year: "2014", link:"https://drive.google.com/file/d/0B598asJ2lBwNRTU2V21FVDJBcWs/view", format: "Prelims PDF" },
 
           { id: 2, img:"https://i.imgur.com/zfjUdaB.png", title: "e-Lite Junior Quiz Prelims", year: "2015", link:"https://drive.google.com/file/d/0B598asJ2lBwNdWwwZDU4eUdXTlU/view", format: "Prelims PDF" },
 
