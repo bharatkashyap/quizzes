@@ -47,19 +47,19 @@
 <a id="quiz-repository" class="anchor" href="#quiz-repository" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Quiz repository</h2>
 
       
-<h2><strong>College</strong>  </h2>
+<h3><strong>College</strong>  </h3>
 <ul id="college">
 <li v-for="card in collegecards" v-bind:key="card.id"><div class="card" v-on:click="follow(card.link)"><img class="card-img-top" v-bind:src="card.img" alt="Card image cap" /><div class="card-body"><h5 class="card-title">{{ card.title }}</h5><div class="card-subtitle text-muted">{{card.year}}</div><p class="card-text">{{ card.format }}</p></div></div></li>  
 </ul>
 
 
-<h2><strong>Inter-school</strong>  </h2>
+<h3><strong>Inter-school</strong>  </h3>
 
 <ul id="inter-school">
   <li v-for="card in intercards" v-bind:key="card.id"><div class="card" v-on:click="follow(card.link)"><img class="card-img-top" v-bind:src="card.img" alt="Card image cap" /><div class="card-body"><h5 class="card-title">{{ card.title }}</h5><div class="card-subtitle text-muted">{{card.year}}</div><p class="card-text">{{ card.format }}</p></div></div></li>      
 </ul>
         
-<h2><strong>Intra-school</strong>  </h2>
+<h3><strong>Intra-school</strong>  </h3>
 
 <ul id="intra">
 <li v-for="card in intracards" v-bind:key="card.id"><div class="card" v-on:click="follow(card.link)"><img class="card-img-top" v-bind:src="card.img" alt="Card image cap" /><div class="card-body"><h5 class="card-title">{{ card.title }}</h5><div class="card-subtitle text-muted">{{card.year}}</div><p class="card-text">{{ card.format }}</p></div></div></li>  
