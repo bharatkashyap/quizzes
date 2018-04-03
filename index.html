@@ -56,13 +56,13 @@
 <h2><strong>Inter-school</strong>  </h2>
 
 <ul id="inter-school">
-  <li v-for="card in intercards" v-bind:key="card.id"><div class="card"><img class="card-img-top" v-bind:src="card.img" alt="Card image cap" /><div class="card-body" v-on:click="follow(card.link)"><h5 class="card-title">{{ card.title }}</h5><div class="card-subtitle text-muted">{{card.year}}</div><p class="card-text">{{ card.format }}</p></div></div></li>      
+  <li v-for="card in intercards" v-bind:key="card.id"><div class="card" v-on:click="follow(card.link)"><img class="card-img-top" v-bind:src="card.img" alt="Card image cap" /><div class="card-body"><h5 class="card-title">{{ card.title }}</h5><div class="card-subtitle text-muted">{{card.year}}</div><p class="card-text">{{ card.format }}</p></div></div></li>      
 </ul>
         
 <h2><strong>Intra-school</strong>  </h2>
 
 <ul id="intra">
-<li v-for="card in intracards" v-bind:key="card.id"><div class="card"><img class="card-img-top" v-bind:src="card.img" alt="Card image cap" /><div class="card-body" v-on:click="follow(card.link)"><h5 class="card-title">{{ card.title }}</h5><div class="card-subtitle text-muted">{{card.year}}</div><p class="card-text">{{ card.format }}</p></div></div></li>  
+<li v-for="card in intracards" v-bind:key="card.id"><div class="card" v-on:click="follow(card.link)"><img class="card-img-top" v-bind:src="card.img" alt="Card image cap" /><div class="card-body"><h5 class="card-title">{{ card.title }}</h5><div class="card-subtitle text-muted">{{card.year}}</div><p class="card-text">{{ card.format }}</p></div></div></li>  
 </ul>
    
 
