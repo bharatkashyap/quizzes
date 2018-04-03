@@ -49,7 +49,7 @@
       
 <h2><strong>College</strong>  </h2>
 <ul id="college">
-<li v-for="card in collegecards" v-bind:key="card.id"><div class="card"><img class="card-img-top" v-bind:src="card.img" alt="Card image cap" /><div class="card-body" v-on:click="follow(card.link)"><h5 class="card-title">{{ card.title }}</h5><div class="card-subtitle text-muted">{{card.year}}</div><p class="card-text">{{ card.format }}</p></div></div></li>  
+<li v-for="card in collegecards" v-bind:key="card.id"><div class="card" v-on:click="follow(card.link)"><img class="card-img-top" v-bind:src="card.img" alt="Card image cap" /><div class="card-body"><h5 class="card-title">{{ card.title }}</h5><div class="card-subtitle text-muted">{{card.year}}</div><p class="card-text">{{ card.format }}</p></div></div></li>  
 </ul>
 
 
